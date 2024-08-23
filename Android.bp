@@ -40336,6 +40336,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "manifest_oplus_esim.xml",
+    owner: "oneplus",
+    src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_esim.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "manifest_oplus_fingerprint_aidl_v3.xml",
     owner: "oneplus",
     src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl_v3.xml",
@@ -41268,6 +41277,41 @@ cc_prebuilt_binary {
                 "libQSEEComAPI",
                 "vendor.oplus.hardware.biometrics.fingerprintpay-V1-ndk",
                 "libsecurity_event_dcs_vnd",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    device_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "vendor.oplus.hardware.esim@1.0-service",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/bin/hw/vendor.oplus.hardware.esim@1.0-service",
+            ],
+            shared_libs: [
+                "vendor.oplus.hardware.esim-V1-ndk",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libhardware",
+                "libcutils",
+                "libqmiservices",
+                "libqmi_cci",
+                "libxml2",
+                "libbinder_ndk",
                 "libc++",
                 "libc",
                 "libm",
