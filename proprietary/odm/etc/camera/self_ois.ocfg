@@ -1,0 +1,62 @@
+{
+    "Ver": "3.1.1.1",
+    "OIS_LOG": 0,
+    "ACC": {
+        "gyro_orien_matrix": [1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "acc_orien_matrix": [0, 1, 0, 1, 0, 0, 0, 0, 1],
+        "GYRO_FULL_SCALE": 124,
+        "ACC_FULL_SCALE": 2,
+        "HPF_CUTOFF_X": [0.7, 0.9, 1.1, 1.3, 1.5, 1.7],
+        "HPF_CUTOFF_Y": [0.5, 0.7, 0.9, 1.1, 1.3, 1.5],
+        "BPF_CUTOFF_LOW_X": 1.3,
+        "BPF_CUTOFF_LOW_Y": 1.3,
+        "BPF_CUTOFF_HIGH_X": 70.0,
+        "BPF_CUTOFF_HIGH_Y": 70.0,
+        "BPF_GAIN_X": [-27000.0, -15000.0, -9700.0, -6500.0, -4900.0, -4100.0],
+        "BPF_GAIN_Y": [-20000.0, -12000.0, -7500.0, -5500.0, -4300.0, -3500.0],
+        "SHIFT_LIMIT": 5.0,
+        "RESET_TIME": 0.5
+    },
+    "Fusion": {
+        "OIS_WORK_MODE": 2,
+        "DEFAULT_CENTER": 2048,
+        "OCS_ENABLE": 0,
+        "CODE_LIMIT_X": 1200,
+        "CODE_LIMIT_Y": 1200,
+        "ACC_GAIN_X": 233,
+        "ACC_GAIN_Y": 233,
+        "CALIB_OBJDIS": 300,
+        "ACC_WORK_MIN": 800,
+        "ACC_WORK_MAX": 900,
+        "FUSION_THETA_LIMIT": 0.6,
+        "FUSION_SHIFT_LIMIT": 3.0
+    },
+    "OIS_MAIN": {
+        "MAIN_M_STH_X": 13,
+        "MAIN_S_STH_X": 13,
+        "MAIN_T_STH_X": 13,
+        "MAIN_DEFAULT_STH_X": 13,
+        "MAIN_M_STH_Y": 13,
+        "MAIN_S_STH_Y": 13,
+        "MAIN_T_STH_Y": 13,
+        "MAIN_DEFAULT_STH_Y": 13,
+        "MAIN_USE_OCS": 1,
+        "AMPLITUDE_LIMIT": 1.2,
+        "AMPLITUDE_LIMIT_PHOTO": 1.2,
+        "AMPLITUDE_LIMIT_VIDEO": 1.2
+    },
+    "OIS_TELE": {
+        "TELE_M_STH_X": 10,
+        "TELE_S_STH_X": 10,
+        "TELE_T_STH_X": 10,
+        "TELE_DEFAULT_STH_X": 10,
+        "TELE_M_STH_Y": 7,
+        "TELE_S_STH_Y": 7,
+        "TELE_T_STH_Y": 7,
+        "TELE_DEFAULT_STH_Y": 7,
+        "TELE_USE_OCS": 1,
+        "AMPLITUDE_LIMIT": 0.8,
+        "AMPLITUDE_LIMIT_PHOTO": 0.85,
+        "AMPLITUDE_LIMIT_VIDEO": 0.7
+    }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*************************************************************
+ ** OPLUS_EDIT
+ ** Copyright (C), 2023, OPLUS Mobile Comm Corp., Ltd.
+ **
+ ** Description : Add for display color feature aidl interface
+ **
+ **
+ ** Version: 1.0
+ ** Date created: 2023-06-08
+ ** Author: Qiyi.Zhang@MULTIMEDIA.DISPLAY.HWC
+ **
+ *************************************************************/
+-->
+<manifest version="1.0" type="device">
+    <hal format="aidl">
+        <name>vendor.oplus.hardware.displaycolorfeature</name>
+        <version>1</version>
+        <fqname>IDisplayColorFeature/default</fqname>
+    </hal>
+</manifest>

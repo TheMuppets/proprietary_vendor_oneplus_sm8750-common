@@ -1,0 +1,19 @@
+# Copyright (c) 2019 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+
+# imsdatadaemon starts with root and UID will be downgraded to RADIO.
+
+on property:sys.boot_completed=1
+    copy /vendor/etc/SDS_official_license.pfm /mnt/vendor/persist/data/pfm/licenses/SDS_official_license.pfm
+    chmod 0644 /mnt/vendor/persist/data/pfm/licenses/SDS_official_license.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/SDS_official_license.pfm
+
+service vendor.ims_rtp_daemon /vendor/bin/ims_rtp_daemon
+    class main
+    user radio
+    group radio vendor_qti_diag inet log drmrpc
+
+on property:vendor.ims.DATA_DAEMON_STATUS=1
+    restart vendor.ims_rtp_daemon

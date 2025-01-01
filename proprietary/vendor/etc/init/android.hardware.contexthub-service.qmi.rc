@@ -1,0 +1,5 @@
+//move to odm to control project
+//service vendor.contexthub-default /vendor/bin/hw/android.hardware.contexthub-service.qmi
+//    class hal
+//    user context_hub
+//    group context_hub

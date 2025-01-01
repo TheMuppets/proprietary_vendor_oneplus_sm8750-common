@@ -1,0 +1,22 @@
+# Copyright (c) 2023 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+service vendor.camera-provider /vendor/bin/hw/vendor.qti.camera.provider-service_64
+    interface aidl android.hardware.camera.provider.ICameraProvider/vendor_qti/0
+    interface aidl vendor.qti.hardware.camera.offlinecamera.IOfflineCameraService/default
+    interface aidl vendor.qti.hardware.camera.aon.IAONService/default
+    interface aidl vendor.oplus.hardware.camera_rfi.ICameraRfiService/default
+    class hal
+    user cameraserver
+    group audio camera input drmrpc oem_2907 oem_2912 wakelock
+    ioprio rt 4
+#ifdef OPLUS_FEATURE_CAMERA_COMMON
+    capabilities SYS_NICE IPC_LOCK BLOCK_SUSPEND
+#else  /*OPLUS_FEATURE_CAMERA_COMMON*/
+#   capabilities SYS_NICE BLOCK_SUSPEND
+#endif /*OPLUS_FEATURE_CAMERA_COMMON*/
+    task_profiles CameraServiceCapacity HighPerformance ProcessCapacityHigh
+
+on boot
+    chown cameraserver camera /sys/module/camera/parameters/cam_event_inject

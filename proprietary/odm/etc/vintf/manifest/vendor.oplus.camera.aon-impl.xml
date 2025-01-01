@@ -1,0 +1,11 @@
+<manifest version="1.0" type="device">
+    <!-- Camera AON service -->
+    <hal format="aidl">
+        <name>vendor.oplus.hardware.camera.aon</name>
+        <version>1</version>
+        <interface>
+            <name>IAONService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>

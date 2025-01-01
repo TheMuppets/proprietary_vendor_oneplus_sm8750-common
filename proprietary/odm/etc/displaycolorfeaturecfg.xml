@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes' ?>
+<root>
+    <oplsStcCfg>
+        <mode name="feature1">
+        </mode>
+        <mode name="feature2">
+        </mode>
+        <mode name="feature3">
+        </mode>
+        <mode name="feature4">
+        </mode>
+        <mode name="FOSS_config">
+            <foss_max_dim_frame> 60 </foss_max_dim_frame>
+            <foss_max_dim_discount> 20 </foss_max_dim_discount>
+            <foss_discount_nit> 70 130 380 500 </foss_discount_nit>
+            <!--功耗线线 非短视频 ratio代表底层比例配置type值为0.02*100 = 3 foss_discount_type3-->
+            <foss_discount_type3> 0 20 20 0 </foss_discount_type3>
+            <!-- 效果线 非短视频 ratio代表底层比例配置type值为0.02*100 = 2 foss_discount_type2-->
+            <foss_discount_type2> 0 15 15 0 </foss_discount_type2>
+            <!-- 效果线和功耗线 短视频 ratio代表底层比例配置type值为0.01*100 = 1 foss_discount_type1-->
+            <foss_discount_type1> 0 10 15 0 </foss_discount_type1>
+            <foss_discount_level> 160 144 128 112 96 80 64 48 32 16 </foss_discount_level>
+            <foss_discount_percent> 100 90 80 70 50 40 30 20 10 5 </foss_discount_percent>
+        </mode>
+        <mode name="feature5">
+            <level1> 30, 8, 1, 3, 600, 750, 750 </level1>
+            <level2> 25, 8, 2, 3, 500, 500, 500 </level2>
+        </mode>
+    </oplsStcCfg>
+    <oplsClstcCfg>
+        <mode name="feature1">
+            <level1> 45, 8, 0, 3, 750, 750, 800 </level1>
+        </mode>
+    </oplsClstcCfg>
+    <layerList>
+        <layer>iqiyi.video.activity.PlayerActivity</layer>
+        <layer>youku.ui.activity.DetailActivity</layer>
+        <layer>sohuvideo.mvp.ui.activity</layer>
+        <layer>qqlive.ona.activity</layer>
+        <layer>mgtv.ui.player</layer>
+        <layer>com.bilibili</layer>
+        <layer>SingleTaskActivity</layer>
+        <layer>VodActivity</layer>
+        <layer>SplashActivity</layer>
+        <layer>tv.douyu.android</layer>
+        <layer>duowan.kiwi.liveroom</layer>
+        <layer>FilmDetailActivity</layer>
+        <layer>duowan.mobile</layer>
+    </layerList>
+</root>

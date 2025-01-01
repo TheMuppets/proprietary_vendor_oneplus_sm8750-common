@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*******************************************************************************
+ ** Copyright (C), 2023, OPLUS Mobile Comm Corp., Ltd.
+ **
+ ** FileName : manifest_oplus_displaypanelfeature_aidl.xml
+ ** Description : This is a common file
+ ** Version : 1.0
+ ** Date : 2023-03-08
+ ** Author : Six.Xu@MULTIMEDIA.DISPLAY.LCD
+ ******************************************************************************/
+-->
+<manifest version="1.0" type="device">
+    <hal format="aidl">
+        <name>vendor.oplus.hardware.displaypanelfeature</name>
+        <version>1</version>
+        <fqname>IDisplayPanelFeature/default</fqname>
+    </hal>
+</manifest>

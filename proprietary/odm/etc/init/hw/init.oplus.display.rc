@@ -1,0 +1,67 @@
+################################################################
+## Copyright (C), 2022, OPLUS Mobile Comm Corp., Ltd
+## File: - init.oplus.display.rc
+## Description: Oplus display init rc
+## Version: 1.1
+## Date : 2022/10/20
+## Author: Display
+################################################################
+#ifdef OPLUS_ARCH_EXTENDS
+#ZhangLiangliang@MULTIMEDIA.DISPLAY.LCD.PARAMS,2020-04-07 add for display
+on boot
+    chown system system /dev/oplus_display
+    chown system system /proc/oplus_display/dump
+    chown system system /sys/kernel/oplus_display/dump_info
+    chown system system /sys/kernel/oplus_display/hbm
+    chown system system /sys/kernel/oplus_display/seed
+    chown system system /sys/kernel/oplus_display/panel_pwr
+    chown system system /sys/kernel/oplus_display/dimlayer_bl_en
+    chown system system /sys/kernel/oplus_display/ffl_set
+    chown system system /sys/kernel/oplus_display/dimlayer_hbm
+    chown system system /sys/kernel/oplus_display/force_screenfp
+    chown system system /sys/kernel/oplus_display/notify_fppress
+    chown system system /sys/kernel/oplus_display/aod_light_mode_set
+    chown system system /sys/kernel/oplus_display/power_status
+    chown system system /sys/kernel/oplus_display/sau_closebl_node
+    chown system system /sys/kernel/oplus_display/esd_status
+    chown system system /sys/kernel/oplus_display/spr
+    chown system system /sys/kernel/oplus_display/write_panel_reg
+    chown system system /sys/kernel/oplus_display/max_brightness
+    chown system system /sys/kernel/oplus_display/dynamic_osc_clock
+    chown system system /sys/kernel/oplus_display/ffc_mode
+
+    chmod 0666 /dev/oplus_display
+    chmod 0666 /proc/oplus_display/dump
+    chmod 0666 /sys/kernel/oplus_display/dump_info
+    chmod 0666 /sys/kernel/oplus_display/hbm
+    chmod 0666 /sys/kernel/oplus_display/seed
+    chmod 0666 /sys/kernel/oplus_display/panel_pwr
+    chmod 0666 /sys/kernel/oplus_display/dimlayer_bl_en
+    chmod 0666 /sys/kernel/oplus_display/ffl_set
+    chmod 0666 /sys/kernel/oplus_display/dimlayer_hbm
+    chmod 0666 /sys/kernel/oplus_display/force_screenfp
+    chmod 0666 /sys/kernel/oplus_display/notify_fppress
+    chmod 0666 /sys/kernel/oplus_display/aod_light_mode_set
+    chmod 0666 /sys/kernel/oplus_display/power_status
+    chmod 0666 /sys/kernel/oplus_display/sau_closebl_node
+    chmod 0666 /sys/kernel/oplus_display/esd_status
+    chmod 0666 /sys/kernel/oplus_display/spr
+    chmod 0666 /sys/kernel/oplus_display/write_panel_reg
+    chmod 0666 /sys/kernel/oplus_display/max_brightness
+    chmod 0666 /sys/kernel/oplus_display/dynamic_osc_clock
+    chmod 0666 /sys/kernel/oplus_display/ffc_mode
+#endif /* OPLUS_ARCH_EXTENDS */
+
+#ifdef OPLUS_FEATURE_LTM
+#Xinqin.Yang@MM.Display.Tuning, 2024/05/16, add for SM8750 LTM
+on property:sys.boot_completed=1
+    copy /vendor/etc/platform_RSA_SM8750_license_c8338967-b56e-4693-ae1b-7a17ac371ff6.pfm /mnt/vendor/persist/data/pfm/licenses/platform_RSA_SM8750_license_c8338967-b56e-4693-ae1b-7a17ac371ff6.pfm
+    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/platform_RSA_SM8750_license_c8338967-b56e-4693-ae1b-7a17ac371ff6.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/platform_RSA_SM8750_license_c8338967-b56e-4693-ae1b-7a17ac371ff6.pfm
+#endif /* OPLUS_FEATURE_LTM */
+
+#ChengLei@MM.Display.LCD, 2024/04/22, add SM8750 DMR lisence
+on post-fs-data
+    copy /vendor/etc/2024-09-06_platform_RSA_SM8750_license_1c6f20f8-67d1-46ef-818d-469363847d91.pfm /mnt/vendor/persist/data/pfm/licenses/2024-09-06_platform_RSA_SM8750_license_1c6f20f8-67d1-46ef-818d-469363847d91.pfm
+    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/2024-09-06_platform_RSA_SM8750_license_1c6f20f8-67d1-46ef-818d-469363847d91.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/2024-09-06_platform_RSA_SM8750_license_1c6f20f8-67d1-46ef-818d-469363847d91.pfm
