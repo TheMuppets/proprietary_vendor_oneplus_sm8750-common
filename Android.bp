@@ -40,56 +40,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libnsp_ipc_cdsp_skel",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/rfs/dsp/libnsp_ipc_cdsp_skel.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/rfs/dsp/libnsp_ipc_cdsp_skel.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
-    relative_install_path: "rfs/dsp",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libnspsuperresolutionproviderextension",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/rfs/dsp/libnspsuperresolutionproviderextension.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/rfs/dsp/libnspsuperresolutionproviderextension.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
-    relative_install_path: "rfs/dsp",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "btaudio_offload_if",
     owner: "oneplus",
     strip: {
@@ -25876,6 +25826,46 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libnsp_ipc_cdsp_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libnsp_ipc_cdsp_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libnspsuperresolutionproviderextension",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libnspsuperresolutionproviderextension.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libosie_skel",
     owner: "oneplus",
     strip: {
@@ -31870,7 +31860,6 @@ cc_prebuilt_library_shared {
                 "vendor.oplus.hardware.charger-V5-ndk",
                 "liboutils",
                 "libocompression",
-                "vendor.oplus.hardware.commondcs-V1-ndk",
                 "libbinder",
                 "vendor.oplus.hardware.osense.client-V1-ndk",
                 "libosenseaidlhalclient",
@@ -32491,6 +32480,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libutils",
+                "libjsoncpp",
                 "libhidlbase",
                 "libhidltransport",
                 "libbinder_ndk",
@@ -37128,6 +37118,43 @@ android_app_import {
 }
 
 android_app_import {
+    name: "EuiccGoogle",
+    owner: "oneplus",
+    apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "HotwordEnrollmentXGoogleHEXAGON_WIDEBAND",
+    owner: "oneplus",
+    apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "HotwordEnrollmentYGoogleHEXAGON_WIDEBAND",
+    owner: "oneplus",
+    apk: "proprietary/product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
     name: "ImsDataChannelService",
     owner: "oneplus",
     apk: "proprietary/system_ext/app/ImsDataChannelService/ImsDataChannelService.apk",
@@ -37236,6 +37263,15 @@ dex_import {
     jars: [
         "proprietary/system/framework/WfdCommon.jar",
     ],
+}
+
+dex_import {
+    name: "com.android.hotwordenrollment.common.util",
+    owner: "oneplus",
+    jars: [
+        "proprietary/product/framework/com.android.hotwordenrollment.common.util.jar",
+    ],
+    product_specific: true,
 }
 
 dex_import {
@@ -37911,6 +37947,15 @@ prebuilt_etc_xml {
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "android.hardware.contexthub-service.qmi.xml",
+    owner: "oneplus",
+    src: "proprietary/odm/etc/vintf/manifest/android.hardware.contexthub-service.qmi.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    device_specific: true,
 }
 
 prebuilt_etc_xml {

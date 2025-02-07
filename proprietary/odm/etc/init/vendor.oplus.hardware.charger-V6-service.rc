@@ -81,7 +81,6 @@ on property:sys.boot_completed=1
     chmod 0666 /proc/oplus_usb_eusb2/eusb2
     chmod 0666 /proc/oplus_usb_xsphy/xsphy
     chown system system /sys/class/oplus_chg/common/plc
-    chown system system /sys/class/oplus_chg/common/non_standard_chg_switch
 
 service ufcsd /odm/bin/hw/ufcsd
     class main
@@ -92,7 +91,6 @@ service ufcsd /odm/bin/hw/ufcsd
 on boot
     chown system system /dev/ufcs_dev
     chown system system /sys/class/oplus_chg/common/chg_up_limit
-    chown system system /sys/class/oplus_chg/battery/battery_seal_flag
     chown system system /sys/class/oplus_chg/battery/battery_first_usage_date
     chown system system /sys/class/oplus_chg/battery/battery_ui_cc
     chown system system /sys/class/oplus_chg/battery/battery_ui_soh

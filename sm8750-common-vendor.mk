@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/ancsegbase/ancsegmulti_2_model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/ancsegmulti_2_model.data \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/ancsegbase/ancsegmulti_5_model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/ancsegmulti_5_model.data \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/ancsegbase/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/model.data \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/ai_perception_scene_detect.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/ai_perception_scene_detect.bin \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.dlc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/class_fullfov.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class_fullfov.dlc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
@@ -586,8 +585,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/mvg_sat_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/mvg_sat_config.json \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mwStereoParams.bin \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/neon_yuv_LUT_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/neon_yuv_LUT_64.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e51.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e51.bundle \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/oplus_eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_eis_camera.vcfg \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/BeardSharp.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.bin \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/BeardSharp.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.frag \
@@ -690,6 +687,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/display/cwb_weightspos.json:$(TARGET_COPY_OUT_ODM)/etc/display/cwb_weightspos.json \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/displaycolorfeaturecfg.xml:$(TARGET_COPY_OUT_ODM)/etc/displaycolorfeaturecfg.xml \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
+    vendor/oneplus/sm8750-common/proprietary/odm/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.contexthub-service.qmi.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/commcenterd.rc:$(TARGET_COPY_OUT_ODM)/etc/init/commcenterd.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/hw/init.oplus.wifi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.wifi.rc \
@@ -781,6 +779,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/sm8750-common/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/sm8750-common/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
+    vendor/oneplus/sm8750-common/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
+    vendor/oneplus/sm8750-common/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
     vendor/oneplus/sm8750-common/proprietary/system/etc/permissions/uimremoteclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/uimremoteclient.xml \
     vendor/oneplus/sm8750-common/proprietary/system/etc/permissions/uimremoteserver.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/uimremoteserver.xml \
     vendor/oneplus/sm8750-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
@@ -874,7 +874,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/android.hardware.bluetooth@aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@aidl-service-qti.rc \
-    vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.contexthub-service.qmi.rc \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/android.hardware.gatekeeper-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service-qti.rc \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
@@ -1266,8 +1265,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
-    libnsp_ipc_cdsp_skel \
-    libnspsuperresolutionproviderextension \
     btaudio_offload_if \
     com.qti.eeprom.gt24p128c2csli_imx766 \
     com.qti.eeprom.gt24p128e2csli_s5kjn1 \
@@ -2041,6 +2038,8 @@ PRODUCT_PACKAGES += \
     libhdr_skel \
     libmobilenet_dsp_frc \
     libmobilenet_dsp_frc_networks \
+    libnsp_ipc_cdsp_skel \
+    libnspsuperresolutionproviderextension \
     libosie_skel \
     libqsegnetengine_dsp_skel \
     libscveT2T_skel \
@@ -2453,6 +2452,9 @@ PRODUCT_PACKAGES += \
     TimeService \
     uimremoteclient \
     uimremoteserver \
+    EuiccGoogle \
+    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     ImsDataChannelService \
     ImsRcsService \
     QCC \
@@ -2463,6 +2465,7 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
+    com.android.hotwordenrollment.common.util \
     uimremoteclientlibrary \
     uimremoteserverlibrary \
     com.qti.dpmframework \
@@ -2538,6 +2541,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal-service.xml \
     vendor.qti.syshealthmon-service.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
+    android.hardware.contexthub-service.qmi.xml \
     device_manifest_communication_center_aidl.xml \
     device_manifest_subsys.xml \
     manifest_displaycolorfeature_aidl.xml \

@@ -33,18 +33,11 @@
         </mode>
     </oplsClstcCfg>
     <layerList>
-        <layer>iqiyi.video.activity.PlayerActivity</layer>
-        <layer>youku.ui.activity.DetailActivity</layer>
-        <layer>sohuvideo.mvp.ui.activity</layer>
-        <layer>qqlive.ona.activity</layer>
-        <layer>mgtv.ui.player</layer>
-        <layer>com.bilibili</layer>
-        <layer>SingleTaskActivity</layer>
-        <layer>VodActivity</layer>
-        <layer>SplashActivity</layer>
-        <layer>tv.douyu.android</layer>
-        <layer>duowan.kiwi.liveroom</layer>
-        <layer>FilmDetailActivity</layer>
-        <layer>duowan.mobile</layer>
+        <layer>android.youtube</layer>
+        <layer>netflix.mediaclient</layer>
+        <layer>amazon.avod</layer>
+        <layer>disney.disneyplus</layer>
+        <layer>hulu.plus</layer>
+        <layer>hbo.android</layer>
     </layerList>
 </root>

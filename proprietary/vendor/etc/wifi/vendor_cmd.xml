@@ -681,15 +681,6 @@
 	<!-- QCA_NL80211_VENDOR_SUBCMD_P2P_LISTEN_OFFLOAD_STOP = 123 -->
 	<!-- QCA_NL80211_VENDOR_SUBCMD_SAP_CONDITIONAL_CHAN_SWITCH = 124 -->
 	<!-- QCA_NL80211_VENDOR_SUBCMD_GPIO_CONFIG_COMMAND = 125 -->
-	<VendorCmd name="GPIO_CONFIG" ID="125">
-		<Attribute name="GPIO_COMMAND" ID="1" TYPE="u32"/>
-		<Attribute name="GPIO_PINNUM" ID="2" TYPE="u32"/>
-		<Attribute name="GPIO_VALUE" ID="3" TYPE="u32"/>
-		<Attribute name="GPIO_PULL_TYPE" ID="4" TYPE="u32"/>
-		<Attribute name="GPIO_INTR" ID="5" TYPE="u32"/>
-		<Attribute name="GPIO_DIR" ID="6" TYPE="u32"/>
-		<Attribute name="GPIO_MUX_CONFIG" ID="7" TYPE="u32"/>
-	</VendorCmd>
 	<!-- QCA_NL80211_VENDOR_SUBCMD_GET_HW_CAPABILITY = 126 -->
 	<!-- QCA_NL80211_VENDOR_SUBCMD_LL_STATS_EXT = 127 -->
 	<VendorCmd name="LL_STATS_EXT" ID="127">
