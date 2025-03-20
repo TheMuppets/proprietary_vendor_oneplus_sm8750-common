@@ -40,6 +40,37 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "android.hardware.bluetooth.audio-impl_prebuilt",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.bluetooth.audio-impl_prebuilt.so",
+            ],
+            shared_libs: [
+                "android.hardware.bluetooth.audio-V4-ndk",
+                "libbase",
+                "libbinder_ndk",
+                "libcutils",
+                "libfmq",
+                "liblog",
+                "libbluetooth_audio_session_aidl_prebuilt",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "btaudio_offload_if",
     owner: "oneplus",
     strip: {
@@ -58,7 +89,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libbinder_ndk",
-                "android.hardware.bluetooth.audio-V5-ndk",
+                "android.hardware.bluetooth.audio-V4-ndk",
                 "libbluetooth_audio_session_aidl_qti",
                 "libbluetooth_audio_session_qti",
                 "libbluetooth_audio_session_qti_2_1",
@@ -7822,7 +7853,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libfmq",
                 "liblog",
-                "android.hardware.bluetooth.audio-V5-ndk",
+                "android.hardware.bluetooth.audio-V4-ndk",
                 "libbluetooth_audio_session_aidl_qti",
                 "libc++",
                 "libc",
@@ -7852,9 +7883,9 @@ cc_prebuilt_library_shared {
                 "libbluetooth_audio_session_qti",
                 "libbluetooth_audio_session_aidl_qti",
                 "android.hardware.bluetooth.audio-impl-qti",
-                "android.hardware.bluetooth.audio-V5-ndk",
-                "android.hardware.audio.core-V3-ndk",
-                "android.media.audio.common.types-V4-ndk",
+                "android.hardware.bluetooth.audio-V4-ndk",
+                "android.hardware.audio.core-V2-ndk",
+                "android.media.audio.common.types-V3-ndk",
                 "libaudioserviceexampleimpl",
                 "libaudioutils",
                 "libaudioaidlcommon",
@@ -8047,7 +8078,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libbluetooth_audio_session_qti_2_1",
                 "libbluetooth_audio_session_qti",
-                "android.hardware.bluetooth.audio-V5-ndk",
+                "android.hardware.bluetooth.audio-V4-ndk",
                 "libbluetooth_audio_session_aidl_qti",
                 "android.hardware.bluetooth.audio-impl-qti",
                 "libaudioutils",
@@ -8453,7 +8484,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libaudioaidlcommon",
                 "libaudioserviceexampleimpl",
-                "android.hardware.audio.core-V3-ndk",
+                "android.hardware.audio.core-V2-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libcutils",
@@ -8462,7 +8493,7 @@ cc_prebuilt_library_shared {
                 "libaudioutils",
                 "libutils",
                 "android.hardware.common-V2-ndk",
-                "android.media.audio.common.types-V4-ndk",
+                "android.media.audio.common.types-V3-ndk",
                 "libmedia_helper",
                 "libstagefright_foundation",
                 "libhidlbase",
@@ -8507,17 +8538,17 @@ cc_prebuilt_library_shared {
                 "libaudioutils",
                 "libxml2",
                 "android.hardware.common-V2-ndk",
-                "android.media.audio.common.types-V4-ndk",
-                "android.hardware.audio.core-V3-ndk",
-                "android.hardware.audio.effect-V3-ndk",
-                "android.hardware.audio.core.sounddose-V3-ndk",
+                "android.media.audio.common.types-V3-ndk",
+                "android.hardware.audio.core-V2-ndk",
+                "android.hardware.audio.effect-V2-ndk",
+                "android.hardware.audio.core.sounddose-V2-ndk",
                 "libar-pal",
                 "libaudioserviceexampleimpl",
                 "libaudioplatformconverter.qti",
                 "qti-audio-types-aidl-V1-ndk",
                 "libdiag",
-                "android.hardware.audio.common-V4-ndk",
-                "libaudio_aidl_conversion_common_ndk",
+                "android.hardware.audio.common-V3-ndk",
+                "libaudio_aidl_conversion_common_ndk_prebuilt",
                 "libc++",
                 "libc",
                 "libm",
@@ -10906,6 +10937,37 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libaudio_aidl_conversion_common_ndk_prebuilt",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libaudio_aidl_conversion_common_ndk_prebuilt.so",
+            ],
+            shared_libs: [
+                "android.media.audio.common.types-V3-ndk",
+                "android.hardware.audio.common-V3-ndk",
+                "liblog",
+                "libstagefright_foundation",
+                "libutils",
+                "libbase",
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libaudio_log_utils",
     owner: "oneplus",
     strip: {
@@ -10973,8 +11035,8 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libbase",
                 "libstagefright_foundation",
-                "android.hardware.audio.core-V3-ndk",
-                "android.media.audio.common.types-V4-ndk",
+                "android.hardware.audio.core-V2-ndk",
+                "android.media.audio.common.types-V3-ndk",
                 "libar-pal",
                 "libc++",
                 "libc",
@@ -10999,40 +11061,10 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib64/libaudioserviceexampleimpl.so",
             ],
-            shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk",
-                "android.hardware.audio.core.sounddose-V3-ndk",
-                "android.hardware.audio.core-V3-ndk",
-                "android.media.audio.common.types-V4-ndk",
-                "libalsautilsv2",
-                "libaudioaidlcommon",
-                "libbase",
-                "libbinder_ndk",
-                "libcutils",
-                "libfmq",
-                "libnbaio_mono",
-                "libtinyalsav2",
-                "libutils",
-                "libxml2",
-                "android.hardware.common-V2-ndk",
-                "android.hardware.common.fmq-V1-ndk",
-                "android.hardware.bluetooth.audio-impl",
-                "libaudio_aidl_conversion_common_ndk",
-                "libaudioutils",
-                "libbluetooth_audio_session_aidl",
-                "liblog",
-                "libmedia_helper",
-                "libmediautils_vendor",
-                "libstagefright_foundation",
-                "qti-audio-types-aidl-V1-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -11218,6 +11250,43 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libbluetooth_audio_session_aidl_prebuilt",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libbluetooth_audio_session_aidl_prebuilt.so",
+            ],
+            shared_libs: [
+                "android.hardware.bluetooth.audio-V4-ndk",
+                "libaconfig_storage_read_api_cc",
+                "android.hardware.bluetooth.audio@2.0",
+                "android.hardware.bluetooth.audio@2.1",
+                "libbase",
+                "libcutils",
+                "libbinder_ndk",
+                "libfmq",
+                "liblog",
+                "libhidlbase",
+                "libxml2",
+                "libflatbuffers-cpp",
+                "server_configurable_flags",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session_aidl_qti",
     owner: "oneplus",
     strip: {
@@ -11236,7 +11305,7 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "libfmq",
                 "liblog",
-                "android.hardware.bluetooth.audio-V5-ndk",
+                "android.hardware.bluetooth.audio-V4-ndk",
                 "libhidlbase",
                 "libxml2",
                 "libflatbuffers-cpp",
@@ -21266,8 +21335,8 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libar-pal",
-                "android.media.audio.common.types-V4-ndk",
-                "android.hardware.audio.core-V3-ndk",
+                "android.media.audio.common.types-V3-ndk",
+                "android.hardware.audio.core-V2-ndk",
                 "libbase",
                 "libaudioplatformconverter.qti",
                 "libc++",
@@ -24169,8 +24238,8 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "libbase",
                 "libfmq",
-                "android.hardware.audio.core-V3-ndk",
-                "android.media.audio.common.types-V4-ndk",
+                "android.hardware.audio.core-V2-ndk",
+                "android.media.audio.common.types-V3-ndk",
                 "qti.video.utils.videobufferlayout",
                 "android.hardware.graphics.mapper@2.0",
                 "libc++",

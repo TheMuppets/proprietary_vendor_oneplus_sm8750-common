@@ -1265,6 +1265,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
+    android.hardware.bluetooth.audio-impl_prebuilt \
     btaudio_offload_if \
     com.qti.eeprom.gt24p128c2csli_imx766 \
     com.qti.eeprom.gt24p128e2csli_s5kjn1 \
@@ -1553,6 +1554,7 @@ PRODUCT_PACKAGES += \
     libar-pal \
     libarmemlog \
     libats \
+    libaudio_aidl_conversion_common_ndk_prebuilt \
     libaudio_log_utils \
     libaudiochargerlistener \
     libaudioplatformconverter.qti \
@@ -1563,6 +1565,7 @@ PRODUCT_PACKAGES += \
     libbgstatsmerger \
     libbitmlengine \
     libbitmlenginev2 \
+    libbluetooth_audio_session_aidl_prebuilt \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
