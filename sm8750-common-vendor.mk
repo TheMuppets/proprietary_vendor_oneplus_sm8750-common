@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Attribute_Face_RGB.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Attribute_Face_RGB.model \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Detect_AnimalBodyFaceEye_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_AnimalBodyFaceEye_Gray.model \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Detect_CommonFace_BGR.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_CommonFace_BGR.model \
+    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Detect_CommonFace_BGR_PZ.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_CommonFace_BGR_PZ.model \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Front_Align_occlusion.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Front_Align_occlusion.model \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye.model \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Track_AnimalsBodyFaceEye_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_AnimalsBodyFaceEye_Gray.model \
@@ -55,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/ancsegbase/ancsegmulti_2_model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/ancsegmulti_2_model.data \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/ancsegbase/ancsegmulti_5_model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/ancsegmulti_5_model.data \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/ancsegbase/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/model.data \
+    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/ai_perception_scene_detect.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/ai_perception_scene_detect.bin \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.dlc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/class_fullfov.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class_fullfov.dlc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
@@ -704,7 +706,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V6-service.rc \
+    vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V7-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V7-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.urcc-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.urcc-service.rc \
@@ -1217,6 +1219,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/vendor/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v_unsigned.mbn \
     vendor/oneplus/sm8750-common/proprietary/vendor/firmware/vpu35_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu35_4v.mbn \
     vendor/oneplus/sm8750-common/proprietary/vendor/firmware/vpu35_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu35_4v_unsigned.mbn \
+    vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
+    vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
+    vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
+    vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/bitmlconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/bitmlconfig.bin \
     vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/bitmlconfig_sm7550.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/bitmlconfig_sm7550.bin \
     vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/camxfl115indices.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/camxfl115indices.bin \
@@ -2024,6 +2030,7 @@ PRODUCT_PACKAGES += \
     libvpp_ais \
     libvpp_ais_networks \
     libvpp_frc \
+    libvpp_gfrc_networks \
     libvpp_svc_skel \
     libvpp_vqa_networks \
     libworker_pool \
@@ -2275,6 +2282,7 @@ PRODUCT_PACKAGES += \
     libWaterMark \
     lib_rectify \
     libaecCustom \
+    libai_perception_scene_detect \
     libaiboost_qnn_external_delegate_te \
     libaiboost_qnn_sr \
     libaiboost_sr \
@@ -2318,6 +2326,8 @@ PRODUCT_PACKAGES += \
     libcommcenterfw \
     libcommcenterutils \
     libcreatebin \
+    libcreatebinForBaseretouch \
+    libcreatebinForFaceretouch \
     libcvface_api \
     libdisplayfossfeature_nature \
     libdisplaysharpness \
@@ -2649,7 +2659,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
     vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor.oplus.hardware.cammidasservice-V1-service \
-    vendor.oplus.hardware.charger-V6-service \
+    vendor.oplus.hardware.charger-V7-service \
     vendor.oplus.hardware.displaypanelfeature-service \
     vendor.oplus.hardware.stability.oplus_project-V1-service \
     vendor.oplus.hardware.urcc-service \

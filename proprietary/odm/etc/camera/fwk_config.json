@@ -306,6 +306,19 @@
             "176x144"
         ]
     },
+    "com.huawei.ado.chongqing": {
+        "resolutionFilterForNotAddSizeAPI1": [
+            "792x360",
+            "640x480",
+            "640x360",
+            "640x290",
+            "480x480",
+            "480x270",
+            "352x288",
+            "320x240",
+            "176x144"
+        ]
+    },
     "com.kufeng.hj.enjoy": {
         "previewSizeForAPI1Height": 1080
     },
@@ -446,6 +459,11 @@
             "2376x1080"
         ]
     },
+    "com.huatu.handheld_huatu": {
+        "resolutionFilterForNotAddSizeAPI1": [
+            "640x290"
+        ]
+    },
     "com.manboker.headportrait": {
         "maxWidthFilterForNotAddSizeAPI1": 1920,
         "maxHeightFilterForNotAddSizeAPI1": 1080,
@@ -491,5 +509,10 @@
         ],
         "limit_exposure_time_parameter":true,
         "limit_physical_multi_resolution_size":true
+    },
+    "com.android.chrome": {
+        "isEnableRemap": true,
+        "remapCameraId": "2",
+        "needRemapCameraId": "4"
     }
 }

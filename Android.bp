@@ -9843,6 +9843,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libOpenCL.so",
             ],
             shared_libs: [
+                "liblog",
+                "libcutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -25361,6 +25363,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libvpp_gfrc_networks",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libvpp_gfrc_networks.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libvpp_svc_skel",
     owner: "oneplus",
     strip: {
@@ -31156,6 +31178,7 @@ cc_prebuilt_library_shared {
                 "vendor.oplus.hardware.charger-V5-ndk",
                 "liboutils",
                 "libocompression",
+                "vendor.oplus.hardware.commondcs-V1-ndk",
                 "libbinder",
                 "vendor.oplus.hardware.osense.client-V1-ndk",
                 "libosenseaidlhalclient",
@@ -31776,7 +31799,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libutils",
-                "libjsoncpp",
                 "libhidlbase",
                 "libhidltransport",
                 "libbinder_ndk",
@@ -32578,6 +32600,30 @@ cc_prebuilt_library_shared {
                 "libdl",
                 "libc",
                 "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libai_perception_scene_detect",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libai_perception_scene_detect.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libm",
+                "libdl",
+                "libc",
             ],
         },
     },
@@ -33711,6 +33757,54 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/odm/lib64/libcreatebin.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcreatebinForBaseretouch",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libcreatebinForBaseretouch.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcreatebinForFaceretouch",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libcreatebinForFaceretouch.so",
             ],
             shared_libs: [
                 "liblog",
@@ -35220,7 +35314,9 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libsaveshaderbin.so",
             ],
             shared_libs: [
+                "libcreatebinForBaseretouch",
                 "libcreatebin",
+                "libcreatebinForFaceretouch",
                 "libGLESv3",
                 "libEGL",
                 "libdl",
@@ -40750,6 +40846,7 @@ cc_prebuilt_binary {
                 "libmediandk",
                 "libnativewindow",
                 "libtinyxml2",
+                "libprocessgroup",
                 "libstfaceunlockocl_uff",
                 "libbinder_ndk",
                 "libdmabufheap",
@@ -40761,6 +40858,8 @@ cc_prebuilt_binary {
                 "vendor.oplus.hardware.performance-V1-ndk",
                 "vendor.oplus.hardware.osense.client-V1-ndk",
                 "libosenseaidlhalclient",
+                "liboplus-uah-client",
+                "libosensenativeproxy_client",
                 "libolc_vnd",
                 "libsensorndkbridge",
                 "vendor.oplus.hardware.commondcs-V1-ndk",
@@ -40902,12 +41001,12 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "vendor.oplus.hardware.charger-V6-service",
+    name: "vendor.oplus.hardware.charger-V7-service",
     owner: "oneplus",
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/odm/bin/hw/vendor.oplus.hardware.charger-V6-service",
+                "proprietary/odm/bin/hw/vendor.oplus.hardware.charger-V7-service",
             ],
             shared_libs: [
                 "libcutils",
@@ -40921,7 +41020,7 @@ cc_prebuilt_binary {
                 "android.hardware.sensors@1.0",
                 "libsensorndkbridge",
                 "libm",
-                "vendor.oplus.hardware.charger-V6-ndk",
+                "vendor.oplus.hardware.charger-V7-ndk",
                 "vendor.oplus.hardware.osense.client-V1-ndk",
                 "libosenseaidlhalclient",
                 "libjsoncpp",

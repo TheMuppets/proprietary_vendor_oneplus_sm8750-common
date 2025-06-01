@@ -114,6 +114,7 @@
 
         // list of codec plugin libraries to be loaded into codec registry
         "QC2CodecPlugins": [
+            "libqc2vppfilter.so",
             "libqcodec2_imgtxrfilter.so",
             // #ifdef OPLUS_FEATURE_DOLBY_VISION_DPU
             // WangZhikun@MULTIMEDIA.MEDIASERVER.PLAYER, Add for dolby vision(DPU) integration
