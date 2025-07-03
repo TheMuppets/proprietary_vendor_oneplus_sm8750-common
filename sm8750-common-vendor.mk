@@ -1819,7 +1819,6 @@ PRODUCT_PACKAGES += \
     libvpp_svc_skel \
     libvpp_vqa_networks \
     libworker_pool \
-    sensors.qsh \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \

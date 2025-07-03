@@ -21781,52 +21781,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "sensors.qsh",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/sensors.qsh.so",
-            ],
-            shared_libs: [
-                "libsns_direct_channel_stub",
-                "libcdsprpc",
-                "libprotobuf-cpp-lite",
-                "liblog",
-                "libsnsapi",
-                "libqsh",
-                "libsnsdiaglog",
-                "libutils",
-                "libcutils",
-                "libsensorslog",
-                "libhardware",
-                "libhidlbase",
-                "libjsoncpp",
-                "libui",
-                "libcwb_client_vendor",
-                "vendor.oplus.hardware.cwb@1.0",
-                "android.hardware.sensors@2.0",
-                "android.hardware.sensors@2.1",
-                "android.hardware.sensors@2.0-ScopedWakelock",
-                "android.hardware.graphics.allocator-V2-ndk",
-                "mapper.qti",
-                "libsnsutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqcompostprocbundle",
     owner: "oneplus",
     strip: {
