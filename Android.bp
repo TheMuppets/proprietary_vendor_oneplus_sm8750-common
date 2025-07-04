@@ -8410,8 +8410,6 @@ cc_prebuilt_library_shared {
                 "libhidltransport",
                 "libcutils",
                 "libminksocket_vendor",
-                "android.hardware.thermal@1.0",
-                "android.hardware.thermal@2.0",
                 "libqrtr",
                 "android.hardware.thermal-V1-ndk",
                 "libbinder",
@@ -15179,6 +15177,41 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libclstc_color_feature",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libclstc_color_feature.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libdisplaydebug",
+                "libbinder",
+                "libsdmutils",
+                "libqservice",
+                "libtinyxml2",
+                "libbinder_ndk",
+                "vendor.oplus.hardware.displaycolorfeature-V1-ndk",
+                "libdisplayfossfeature_nature",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libdisplayfossfeature_nature",
     owner: "oneplus",
     strip: {
@@ -15196,41 +15229,6 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "libbinder_ndk",
                 "libtinyxml2",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libdisplaysharpness",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libdisplaysharpness.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libdisplaydebug",
-                "libbinder",
-                "libsdmutils",
-                "libqservice",
-                "libtinyxml2",
-                "libbinder_ndk",
-                "vendor.oplus.hardware.displaycolorfeature-V1-ndk",
-                "libdisplayfossfeature_nature",
                 "libc++",
                 "libc",
                 "libm",

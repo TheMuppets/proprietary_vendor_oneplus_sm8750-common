@@ -903,8 +903,8 @@ PRODUCT_PACKAGES += \
     libaiboost_te \
     libaiboost_ubwc \
     libc2filterplugin \
+    libclstc_color_feature \
     libdisplayfossfeature_nature \
-    libdisplaysharpness \
     libdolbyclstc \
     libdolbydecoderprocessor \
     libdolbyeglcore \
