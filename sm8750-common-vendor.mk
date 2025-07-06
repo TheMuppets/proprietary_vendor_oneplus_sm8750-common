@@ -484,7 +484,6 @@ PRODUCT_PACKAGES += \
     libops \
     libos \
     libosensenativeproxy_client_vendor \
-    libpalclient \
     libpasrutils \
     libpdmapper \
     libpdnotifier \
