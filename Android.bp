@@ -1876,11 +1876,15 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libar-pal.so",
             ],
             shared_libs: [
+                "libar-gsl",
                 "liblog",
                 "libexpat",
+                "liblx-osal",
                 "libaudioroute",
                 "libcutils",
                 "libutilscallstack",
+                "libagmclient",
+                "libvui_intf",
                 "libarmemlog",
                 "libhidlbase",
                 "libdiag",
@@ -1898,7 +1902,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -1917,6 +1920,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libexpat",
+                "liblx-osal",
                 "libc++",
                 "libc",
                 "libm",
@@ -1925,7 +1929,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -3987,10 +3990,14 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmcs.so",
             ],
             shared_libs: [
+                "libagm",
                 "libaudioroute",
+                "libar-acdb",
                 "liblog",
                 "libcutils",
+                "libats",
                 "libexpat",
+                "liblx-osal",
                 "libtinyalsa",
                 "libc++",
                 "libc",
@@ -4000,7 +4007,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -4985,36 +4991,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libpalclient",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libpalclient.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libutils",
-                "vendor.qti.hardware.pal-V1-ndk",
-                "libfmq",
-                "libbinder_ndk",
                 "libc++",
                 "libc",
                 "libm",
