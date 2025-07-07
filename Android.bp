@@ -14088,6 +14088,36 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libminkipcbinder_vendor",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libminkipcbinder_vendor.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libbinder_ndk",
+                "vendor.qti.hardware.minkipcbinder-V1-ndk",
+                "libbinder",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libminksocket_vendor",
     owner: "oneplus",
     strip: {
@@ -23039,6 +23069,32 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.qti.hardware.minkipcbinder-V1-ndk",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.hardware.minkipcbinder-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.common-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk",
     owner: "oneplus",
     strip: {
@@ -31281,6 +31337,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "vendor.qti.hardware.minkipcbinder-service.xml",
+    owner: "oneplus",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.minkipcbinder-service.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "vendor.qti.hardware.perf2.xml",
     owner: "oneplus",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.perf2.xml",
@@ -32221,6 +32286,38 @@ cc_prebuilt_binary {
         "vendor.qti.hardware.display.composer-service.rc",
         "vendor.qti.hardware.display.composer-service.xml",
     ],
+}
+
+cc_prebuilt_binary {
+    name: "vendor.qti.hardware.minkipcbinder@1.0-service",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/vendor.qti.hardware.minkipcbinder@1.0-service",
+            ],
+            shared_libs: [
+                "libminkipcbinder_vendor",
+                "libminksocket_vendor",
+                "liblog",
+                "libcutils",
+                "libqcbor",
+                "libbinder_ndk",
+                "libjsoncpp",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
 }
 
 cc_prebuilt_binary {
