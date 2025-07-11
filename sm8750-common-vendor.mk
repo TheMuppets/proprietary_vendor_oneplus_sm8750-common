@@ -22,668 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/audio_algos_ver/OPSPT_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPSPT_Version.txt \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/audio_algos_ver/OPSR_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPSR_Version.txt \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/audio_algos_ver/OPVE_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPVE_Version.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/AIAEVideoModel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAEVideoModel.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/AiFace.json:$(TARGET_COPY_OUT_ODM)/etc/camera/AiFace.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/BodySeg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/BodySeg.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/M_FaceAttribute_RGB.model:$(TARGET_COPY_OUT_ODM)/etc/camera/M_FaceAttribute_RGB.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Align_occlusion.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Align_occlusion.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Attribute_Face_RGB.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Attribute_Face_RGB.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Detect_AnimalBodyFaceEye_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_AnimalBodyFaceEye_Gray.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Detect_CommonFace_BGR.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_CommonFace_BGR.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Detect_CommonFace_BGR_PZ.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_CommonFace_BGR_PZ.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Front_Align_occlusion.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Front_Align_occlusion.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Track_AnimalsBodyFaceEye_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_AnimalsBodyFaceEye_Gray.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/Vega_Track_FaceRect20cls.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_FaceRect20cls.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aiboost_qnn_htp2.7.2_16382673562495086299.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aiboost_qnn_htp2.7.2_16382673562495086299.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aiboost_qnn_htp2.7.2_828413902960689361.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aiboost_qnn_htp2.7.2_828413902960689361.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aigc/aigc_models/blurDet_sm8750.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/blurDet_sm8750.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aigc/aigc_models/faceSeg_sm8750.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/faceSeg_sm8750.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aigc/aigc_models/gfpgan1024_sm8750.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/gfpgan1024_sm8750.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aigc/aigc_models/noise200.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/noise200.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aigc/libs/libODNN.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libODNN.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aigc/libs/libQnnHtp.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libQnnHtp.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aigc/libs/libQnnHtpV79Stub.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libQnnHtpV79Stub.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aigc/libs/libQnnSystem.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libQnnSystem.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/aigc/libs/libzlib.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libzlib.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/anc/fusion_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/anc/fusion_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model_post \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/anc_cl_kernel_ins.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel_ins.cache \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/ancsegbase/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/anc_cl_kernel.cache \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/ancsegbase/ancsegmulti_2_model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/ancsegmulti_2_model.data \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/ancsegbase/ancsegmulti_5_model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/ancsegmulti_5_model.data \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/ancsegbase/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/model.data \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/ai_perception_scene_detect.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/ai_perception_scene_detect.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.dlc \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/class_fullfov.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class_fullfov.dlc \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/BaseLut:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/BaseLut \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut0 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut1 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut2 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut3 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut4 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut5 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut6 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut7 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut8 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/LMTLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/LMTLut0 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/LMTLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/LMTLut1 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SC32Lut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut0 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SC32Lut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut1 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SC32Lut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut2 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SC32Lut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut3 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SC32Lut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut4 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SC32Lut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut5 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SC32Lut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut6 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SC32Lut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut7 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SC32Lut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut8 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SCLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut0 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SCLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut1 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SCLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut2 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SCLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut3 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SCLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut4 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SCLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut5 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SCLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut6 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SCLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut7 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/lmt/SCLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut8 \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/odt/ODT_Dolby:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/odt/ODT_Dolby \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/odt/ODT_Photo:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/odt/ODT_Photo \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/odt/ODT_Pre:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/odt/ODT_Pre \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/odt/ODT_Video:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/odt/ODT_Video \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/setting/Ditherout:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/Ditherout \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/setting/FromXml:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/FromXml \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/setting/SimTool.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool.ini \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/setting/SimTool_Dolby.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool_Dolby.ini \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/setting/SimTool_Master.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool_Master.ini \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/setting/TriggerBIN:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/TriggerBIN \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/setting_dolby/FromXml:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting_dolby/FromXml \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/setting_dolby/SimTool.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting_dolby/SimTool.ini \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/vig/VigTab_Main:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Main \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/vig/VigTab_Tele:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Tele \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/vig/VigTab_UTele:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_UTele \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/basictone/vig/VigTab_Wide:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Wide \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/capture_bokeh_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_bokeh_params.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/capture_lutportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_lutportrait_params.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/capture_neonportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_neonportrait_params.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/cfr_bin/CFR_dodgemain.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_dodgemain.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/cfr_bin/CFR_dodgetele.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_dodgetele.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/cfr_bin/CFR_dodgetele2.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_dodgetele2.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/cfr_bin/CFR_dodgeultrawide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_dodgeultrawide.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/conf_tuning_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/conf_tuning_params.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortionParams.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ColorMatrix1_dodgemain.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_dodgemain.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ColorMatrix1_dodgetele.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_dodgetele.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ColorMatrix1_dodgetele2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_dodgetele2.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ColorMatrix1_dodgeultrawide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_dodgeultrawide.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ColorMatrix2_dodgemain.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix2_dodgemain.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ColorMatrix2_dodgetele.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix2_dodgetele.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ColorMatrix2_dodgetele2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix2_dodgetele2.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ColorMatrix2_dodgeultrawide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix2_dodgeultrawide.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/D28HUESATMap_dodgemain.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D28HUESATMap_dodgemain.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/D28HUESATMap_dodgetele.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D28HUESATMap_dodgetele.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/D28HUESATMap_dodgetele2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D28HUESATMap_dodgetele2.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/D28HUESATMap_dodgeultrawide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D28HUESATMap_dodgeultrawide.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/D65HUESATMap_dodgemain.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D65HUESATMap_dodgemain.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/D65HUESATMap_dodgetele.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D65HUESATMap_dodgetele.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/D65HUESATMap_dodgetele2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D65HUESATMap_dodgetele2.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/D65HUESATMap_dodgeultrawide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D65HUESATMap_dodgeultrawide.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ToneCurve_dodgemain.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_dodgemain.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ToneCurve_dodgetele.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_dodgetele.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ToneCurve_dodgetele2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_dodgetele2.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/dng/ToneCurve_dodgeultrawide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_dodgeultrawide.txt \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/eeprom_dodgefront_eeprom.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/eeprom_dodgefront_eeprom.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/eeprom_dodgemain_eeprom.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/eeprom_dodgemain_eeprom.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/eeprom_dodgetele2_eeprom.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/eeprom_dodgetele2_eeprom.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/eeprom_dodgeultrawide_eeprom.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/eeprom_dodgeultrawide_eeprom.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/InitParams.json:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/InitParams.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/BDET.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/BDET.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/DB.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/DB.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/FS.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/FS.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/F_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_C.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/F_SE_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SE_A.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/F_SE_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SE_B.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/F_SL_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SL_A.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/F_SL_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SL_B.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RM_GP_A.bix:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_GP_A.bix \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RM_SE_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SE_A.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RM_SE_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SE_B.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RM_SE_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SE_C.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RM_SL_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SL_A.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RM_SL_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SL_B.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RM_SL_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SL_C.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RT_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_A.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RT_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_B.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RT_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_C.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/facerestore/fr_models/RT_D.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_D.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/000_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/001.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/001_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/001_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001_pre.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/002.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/002_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/003.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/003_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/010.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/010_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/010_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010_pre.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/011.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/011_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/011_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011_pre.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/012.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/012_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/013.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/013.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/100.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/100_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/101.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/101_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/102.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/102_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/103.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/103_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/110.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/110_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/111.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/111_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/112.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/112_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/113.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/113.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/200.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/200_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/201.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/201_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/202.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/202_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/203.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/203_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/210.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/210_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/211.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/211_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/212.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/212_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212_pre.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/213.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/213.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/AIdeblemishSnapMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/AIdeblemishSnapMask.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/AIdeblemishSnapMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/AIdeblemishSnapMask.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/SkinLUT_00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_00.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/SkinLUT_01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_01.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/SkinLUT_02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_02.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/SkinLUT_03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_03.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/SkinLUT_10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_10.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/SkinLUT_11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_11.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/SkinLUT_12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_12.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/SkinLUT_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_13.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/SkinLUT_BW.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_BW.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/SkinLUT_Red.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_Red.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/beauty_body.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/beauty_body.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/brightLut.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/brightLut.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/brightLut.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/brightLut.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/eyeBright.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyeBright.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/eye_retouch_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eye_retouch_chinese.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/eyesMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMask.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/eyesMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMask.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/eyesMaskNew.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMaskNew.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/eyesMaskNew.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMaskNew.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/face_faceshadow_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_faceshadow_chinese.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/face_facewarp_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_facewarp_chinese.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/face_retouch_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_chinese.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/face_retouch_pre_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_pre_chinese.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/face_retouch_pre_chinese_wechat.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_pre_chinese_wechat.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/mouthmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/mouthmask.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/preSkinmask137.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask137.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/preSkinmask137.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask137.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/preSkinmask296.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask296.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/redToneLut.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/redToneLut.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/redToneLut.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/redToneLut.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUT_white_Bright.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUT_white_Bright.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs00.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs01.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs02.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs03.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs04.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs04.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs05.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs05.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs06.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs06.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs10.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs11.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs12.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs13.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_00.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_01.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_02.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_03.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_10.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_11.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_12.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_13.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/skinmask_new.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask_new.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapEyeBright.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapEyeBright.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapEyeMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapEyeMask.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapEyeMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapEyeMask.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapFemale000.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale000.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapFemale001.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale001.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapFemale002.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale002.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapFemale003.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale003.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapMale010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale010.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapMale011.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale011.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapMale012.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale012.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapMouthMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMouthMask.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/snapSkinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapSkinmask.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/unify_skin_base.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/unify_skin_base.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/whiteToneLut.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/whiteToneLut.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fb_model/whiteToneLut.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/whiteToneLut.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fdc_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_cl.cache \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fdc_lite_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_lite_cl.cache \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/B1VLf4peM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1VLf4peM \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/B1aMqioxf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1aMqioxf \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/B1nmcmWbG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1nmcmWbG \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/B1si_XbZz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1si_XbZz \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/B612Pretty.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B612Pretty.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/BJJAwoigM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BJJAwoigM \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/BJyKIwqxz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BJyKIwqxz \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/ByW7g4bbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByW7g4bbf \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByYo3If \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/BycYf7WWz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BycYf7WWz \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Cold.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/Delta400.3dl.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Delta400.3dl.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Emerald.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/EyxRbD2UCe:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/EyxRbD2UCe \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/InsClarendon.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsClarendon.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/InsJuno.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsJuno.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/LMT_6_D65_33.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/LMT_6_D65_33.cube \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/Martin.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Martin.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/ODT_2020_PQ10000nits-P3_srgb,roll-off_33_ver5.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ODT_2020_PQ10000nits-P3_srgb,roll-off_33_ver5.cube \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/Radiance.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Radiance.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/SJ3mbr6ef:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SJ3mbr6ef \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/Serenity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Serenity.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/SkpZ8ebbz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SkpZ8ebbz \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/Sy4uLSTgf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Sy4uLSTgf \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/Syt2KeZZf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Syt2KeZZf \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/Texture-70.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Texture-70.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/VigTab_Main:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/VigTab_Main \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/VigTab_Tele:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/VigTab_Tele \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/VigTab_UTele:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/VigTab_UTele \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/VigTab_Wide:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/VigTab_Wide \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/White.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/black_gold.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/blackandwhite.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bright_coloured.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/calm-V5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/calm-V5.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/candy-P7.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/candy-P7.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cola.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/cyberpunk-neoMilitarism-2.4-final.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cyberpunk-neoMilitarism-2.4-final.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/default:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/default \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/delight-P3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/delight-P3.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/delight-V1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/delight-V1.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/dolby_preview_3dlut.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/dolby_preview_3dlut.cube \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/drjw1994.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/drjw2010.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/empty_33.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/empty_33.cube \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/f_bin_hideaki:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_bin_hideaki \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/f_contrast_gray_face_dark:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_contrast_gray_face_dark \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gourmet.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-24hour-city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-24hour-city.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-3dcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-3dcity.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-after-glow.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-after-glow.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-azure-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-azure-water.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-beach.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-beach.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-blue-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-blue-water.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-coco-grove.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-coco-grove.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-crisp-fall.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-crisp-fall.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-desert.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-desert.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-earth.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-earth.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-japan.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-japan.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-lake.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-lake.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-mountainous.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-mountainous.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-old-times.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-old-times.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-quietly-ele.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-quietly-ele.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-rosy.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-rosy.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/gt-steaming.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-steaming.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/interstellar_space.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jw_surprise.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/kodak.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/masterlut/FromXml:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/masterlut/FromXml \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/masterlut/ODT_Photo:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/masterlut/ODT_Photo \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/masterlut/SimTool.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/masterlut/SimTool.ini \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/mellow-V3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/mellow-V3.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/misty-P5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/misty-P5.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/misty-V4.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/misty-V4.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/mono.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/morandi.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/natural-P1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/natural-P1.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/natural.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/neon-2020.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus-black-gold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-black-gold.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus-cyberpunk.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-cyberpunk.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus-nightcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-nightcity.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_r4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r4.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_r5.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r5.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_r6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r6.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_black_and_white:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_black_and_white \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_highlight:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_highlight \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_ins:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_ins \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_natal:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_natal \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_olympus:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_olympus \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_plain:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_plain \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_show:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_show \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_solar:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_solar \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_strong:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_strong \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_west:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_west \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/p4_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_1.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/p4_2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_2.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/p4_3.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_3.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/p4_4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_4.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/r1JaFSZZG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/r1JaFSZZG \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/r1PrfoolG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/r1PrfoolG \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rJ5g5vPWG \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/rJxJtmaez:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rJxJtmaez \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/red-red.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/rkMhq4ZWf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rkMhq4ZWf \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/rkx5u4Zbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rkx5u4Zbf \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/serene-P9.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/serene-P9.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sky-blue.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/sweet-P2.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sweet-P2.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/sweet-V2.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sweet-V2.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/tree-green.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/type_fuji_acros:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_acros \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/type_fuji_astia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_astia \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/type_fuji_chrome:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_chrome \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/type_fuji_provia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_provia \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/type_fuji_velvia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_velvia \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/vivid-cool.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-cool.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/vivid-lut.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-lut.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/vivid-warm.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-warm.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_res/film_grain_small.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/film_grain_small.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_res/lut_all_points.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/lut_all_points.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/overlay_p4_3_weak.png \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_det_v11.0.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/gesture/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_box_reg_v12.0.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/gesture/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_det_v11.0.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/gesture/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_gesture_v11.1.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/gesture/tt_hand_kp_v6.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_kp_v6.0.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/gesture/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_lr_v3.0.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/gm_tcs3449_golden:$(TARGET_COPY_OUT_ODM)/etc/camera/gm_tcs3449_golden \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/QRCodeFlattenPriors.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/QRCodeFlattenPriors.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/QRCodeFlattenStride.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/QRCodeFlattenStride.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/QRCode_det.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/QRCode_det.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/ai_motion_mask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/ai_motion_mask.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/ai_motion_mask_1Div2M.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/ai_motion_mask_1Div2M.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/ai_motion_mask_3Div2M.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/ai_motion_mask_3Div2M.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/ai_seg_human_landscape.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/ai_seg_human_landscape.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/ai_seg_human_portrait.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/ai_seg_human_portrait.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/ai_seg_sky_day.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/ai_seg_sky_day.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/ai_seg_sky_night.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/ai_seg_sky_night.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/detail_net.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/detail_net.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/faceDetPriors.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/faceDetPriors.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/face_det.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/face_det.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/gan_enhancer_10x.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/gan_enhancer_10x.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/gan_enhancer_20x.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/gan_enhancer_20x.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/gan_enhancer_40x.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/gan_enhancer_40x.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/gan_enhancer_60x_sd.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/gan_enhancer_60x_sd.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/highmagsol_20x.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/highmagsol_20x.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/highmagsol_40x.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/highmagsol_40x.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/highmagsol_80x.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/highmagsol_80x.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/pedestrianDetPriors.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/pedestrianDetPriors.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/pedestrian_det.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/pedestrian_det.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/postSr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/postSr.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/sd_noise0.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/sd_noise0.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/sd_noise2.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/sd_noise2.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/tele_binning_ev0.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/tele_binning_ev0.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/tele_binning_ev0_60x.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/tele_binning_ev0_60x.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/tele_binning_ev0_motion_3f.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/tele_binning_ev0_motion_3f.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/tele_binning_evm.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/tele_binning_evm.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/tele_binning_evm_60x.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/tele_binning_evm_60x.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/tele_binning_evmm.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/tele_binning_evmm.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/tele_quadbayer_ev0.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/tele_quadbayer_ev0.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/tele_quadbayer_ev0_60x.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/tele_quadbayer_ev0_60x.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/tele_quadbayer_evm.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/tele_quadbayer_evm.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/tele_quadbayer_evm_60x.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/tele_quadbayer_evm_60x.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/text_det.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/text_det.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/text_embedding.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/text_embedding.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/unet.bix:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/unet.bix \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/vae_decoder.bix:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/vae_decoder.bix \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/vae_decoder_vertical.bix:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/vae_decoder_vertical.bix \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/vae_encoder.bix:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/vae_encoder.bix \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/hybridraw_models/vae_encoder_vertical.bix:$(TARGET_COPY_OUT_ODM)/etc/camera/hybridraw_models/vae_encoder_vertical.bix \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/license_release_fdc.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/license_release_fdc.lic \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libODNN.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libODNN.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libOPAlgoCamCoverEnhancer.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libOPAlgoCamCoverEnhancer.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libQnnHtp.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libQnnHtp.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libQnnHtpV79Stub.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libQnnHtpV79Stub.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libQnnSystem.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libQnnSystem.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libsharebuffer.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libsharebuffer.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libtrace.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libtrace.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libzlib.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libzlib.so \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/livephoto_coverenhancer/models/RRDBNet_sm8750.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/models/RRDBNet_sm8750.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/livephoto_coverenhancer/models/license_release_gallery.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/models/license_release_gallery.lic \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/main_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_inv_mapxy_33x25.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/main_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_mapxy_33x25.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ByYo3If \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Cold.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_A_MoneyBall.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/DL_B_Inception.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_B_Inception.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/DL_C_R3_80.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_C_R3_80.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_D_G4.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_L_B6.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/Delta400.3dl.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Delta400.3dl.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Emerald.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/Martin.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Martin.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/OPLUSR0604.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/OPLUSR0604.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/Radiance.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Radiance.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/Serenity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Serenity.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/Texture-70.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Texture-70.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/White.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/black_gold.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/bright_coloured.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cola.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw1994.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw2010.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/fuji-cc-high.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-high.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/fuji-cc-low.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-low.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/fuji-nc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-nc.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/fuji-proNegHi.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-proNegHi.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/fuji_cc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji_cc.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gourmet.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-24hour-city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-24hour-city.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-3dcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-3dcity.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-after-glow.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-after-glow.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-azure-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-azure-water.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-beach.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-beach.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-blue-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-blue-water.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-coco-grove.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-coco-grove.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-crisp-fall.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-crisp-fall.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-desert.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-desert.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-glazed-tile.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-glazed-tile.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-mountainous.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-mountainous.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/interstellar_space.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/jzk-movie.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jzk-movie.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/kodak.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/meicam.child.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/meicam.child.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/morandi.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/natural.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/neon-2020.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/oplus-cyberpunk.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-cyberpunk.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/p4_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/p4_1.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/p4_3.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/p4_3.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/rJ5g5vPWG \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/red-red.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/sky-blue.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tree-green.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/model/license.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/model/license.lic \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mtStereoParams.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/mvg_sat_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/mvg_sat_config.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mwStereoParams.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/neon_yuv_LUT_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/neon_yuv_LUT_64.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/oplus_eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_eis_camera.vcfg \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/BeardSharp.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/BeardSharp.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.frag \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/BeardSharp.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.vert \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreAddSRBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreAddSRBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreCalVarBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreCalVarBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreCalcSRBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreCalcSRBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreCalculateOutTex.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreCalculateOutTex.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreDepouchBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreDepouchBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreEyeMeanBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreEyeMeanBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreGetHpMaskHor.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreGetHpMaskHor.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreGetHpMaskVer.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreGetHpMaskVer.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreGetInitHpMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreGetInitHpMask.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreHighPassBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreHighPassPreBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassPreBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreHoriFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHoriFilterBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreMakeupBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreMakeupMultiFaceBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupMultiFaceBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreMakeupSingleFaceBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupSingleFaceBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreMixImageBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMixImageBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreMorphBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMorphBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreOnlywhitenBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreOnlywhitenBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreSaveMaskBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSaveMaskBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreSkintuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSkintuneBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreSkintuneMRTBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSkintuneMRTBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreSobelSumTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSobelSumTwoBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreSobelTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSobelTwoBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreSobelUpdateTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSobelUpdateTwoBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreStitchFacesAnd2Cpu.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreStitchFacesAnd2Cpu.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertFilterBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/PreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertSurBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.frag \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.vert \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.frag \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.vert \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.frag \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.vert \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.frag \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.vert \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapAdjustProgramBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapAdjustProgramBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapBoxFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapBoxFilterBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapCalcSumProgramBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapCalcSumProgramBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapContrastProgramBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapContrastProgramBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapDodgeBurnBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapDodgeBurnBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapEYESMASKBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapEYESMASKBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapEyeYUV2RGBBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapEyeYUV2RGBBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapEyesTuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapEyesTuneBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapFSMixBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapFSMixBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapFSNormBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapFSNormBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapFSVarBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapFSVarBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapGuidedFilterBBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapGuidedFilterBBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapGuidedFilterCorrBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapGuidedFilterCorrBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapGuidedFilterQBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapGuidedFilterQBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapHW2TexBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapHW2TexBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapHighPassBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapHighPassBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapLUTsFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapLUTsFilterBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapMakeupEditionTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapMakeupEditionTwoBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapMakeupMultiFaceBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapMakeupMultiFaceBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapMakeupSingleFaceBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapMakeupSingleFaceBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapMeanFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapMeanFilterBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapMorphBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapMorphBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapProgramABinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapProgramABinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapProgram_blurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapProgram_blurBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapProgram_bwBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapProgram_bwBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapRGB2YUV420spBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapRGB2YUV420spBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapSaveMaskBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapSaveMaskBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapSurfaceBlurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapSurfaceBlurBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapTex2HWBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapTex2HWBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapYUV420sp2RGBBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapYUV420sp2RGBBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/pfb_bin/snapseparateYUV2RGBBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapseparateYUV2RGBBinary.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/qnn_binary_9052758122668408981.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/qnn_binary_9052758122668408981.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/salient2_seg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/salient2_seg.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/self_ois.ocfg:$(TARGET_COPY_OUT_ODM)/etc/camera/self_ois.ocfg \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehParam.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/singleblur/license_release.license:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.license \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/singleblur/personseg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/personseg.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/singleblur/preview_seg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/preview_seg.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/M_SenseME_Action_5.2.12.model \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/sticker/material/animoji/data.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/data.zip \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/tele_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/tele_inv_mapxy_33x25.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/tele_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/tele_mapxy_33x25.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/text_enhance_yuv_v1.tflite:$(TARGET_COPY_OUT_ODM)/etc/camera/text_enhance_yuv_v1.tflite \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/wide_inv_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_inv_padding_mapxy_33x25.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/camera/wide_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_padding_mapxy_33x25.bin \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/charge.cfg:$(TARGET_COPY_OUT_ODM)/etc/charge.cfg \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/display/cwb_weightspos.json:$(TARGET_COPY_OUT_ODM)/etc/display/cwb_weightspos.json \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/displaycolorfeaturecfg.xml:$(TARGET_COPY_OUT_ODM)/etc/displaycolorfeaturecfg.xml \
@@ -691,14 +29,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/hw/init.oplus.wifi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.wifi.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/init.audio.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.audio.rc \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/init.oplus.sensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.sensor.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/init.oppo.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oppo.reserve.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/init.touchDaemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.touchDaemon.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V7-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V7-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
@@ -721,38 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/firmware/ufs/SKhynix-HN8T374ZJKX141.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-HN8T374ZJKX141.bin \
     vendor/oneplus/sm8750-common/proprietary/odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh:$(TARGET_COPY_OUT_ODM)/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh \
     vendor/oneplus/sm8750-common/proprietary/odm/firmware/ufs/ufs_version_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/ufs/ufs_version_config.xml \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/awb_parameter_default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_default.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/awb_parameter_dodgefront.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_dodgefront.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/awb_parameter_dodgemain.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_dodgemain.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/awb_parameter_dodgetele2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_dodgetele2.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/awb_parameter_dodgeultrawide.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_dodgeultrawide.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.sensormodule.dodgefront.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.dodgefront.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.sensormodule.dodgemain.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.dodgemain.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.sensormodule.dodgetele.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.dodgetele.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.sensormodule.dodgetele2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.dodgetele2.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.sensormodule.dodgetele2_MP.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.dodgetele2_MP.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.sensormodule.dodgeultrawideD.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.dodgeultrawideD.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.sensormodule.dodgeultrawideL.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.dodgeultrawideL.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.sensormodule.dodgeultrawideS.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.dodgeultrawideS.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.sensorsocmap.socid_map.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensorsocmap.socid_map.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.tuned.default.sun.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.default.sun.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.tuned.dodgefront.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dodgefront.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.tuned.dodgemain.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dodgemain.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.tuned.dodgetele.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dodgetele.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.tuned.dodgetele2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dodgetele2.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/com.qti.tuned.dodgeultrawide.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dodgeultrawide.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libaecCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam0.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libaecCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam1.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libaecCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam2.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libaecCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam3.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libafCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam0.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libafCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam1.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libafCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam2.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libafCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam3.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libpdCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam0.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libpdCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam2.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/libpdCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam3.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/sm8750-common/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/sm8750-common/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
     vendor/oneplus/sm8750-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
@@ -872,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/vendor.qsap.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.sensors.rc \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
-    vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm-service.rc \
@@ -1032,55 +334,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b02 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b03 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b04 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b05 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b06 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b07 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b08 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b09 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b10 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b11 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b12 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b13 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b14 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b15 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b16 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b17 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b18 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b19 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b20 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b00 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b01 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b02 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b03 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b04 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b05 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b06 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b07 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b08 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b09 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b10 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b11 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b12 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b13 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b14 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b15 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b16 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b17 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b18 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b19 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.b20 \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.elf \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.mbn \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_1.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.mdt \
-    vendor/oneplus/sm8750-common/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/oneplus/sm8750-common/proprietary/vendor/firmware/dpAP_full.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_full.mbn \
     vendor/oneplus/sm8750-common/proprietary/vendor/firmware/dpAP_mini.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_mini.mbn \
     vendor/oneplus/sm8750-common/proprietary/vendor/firmware/dpAP_modemssr.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_modemssr.mbn \
@@ -1122,240 +375,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
     vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/bitmlconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/bitmlconfig.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/bitmlconfig_sm7550.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/bitmlconfig_sm7550.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/camxfl115indices.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/camxfl115indices.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/camxfl300v1indices.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/camxfl300v1indices.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/camxfl300v2indices.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/camxfl300v2indices.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/camxflcustom300indices.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/camxflcustom300indices.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/chifdnodeconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/chifdnodeconfig.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm8750.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm8750.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.ofe.profiledb.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.ofe.profiledb.default.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_imx766_ois.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_imx766_ois.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_imx858.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_imx858.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_s5kjn1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_s5kjn1.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.qti_tpg0.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qti_tpg0.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.qti_tpg1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qti_tpg1.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.qti_tpg2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qti_tpg2.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.shinetech_imx688_rear.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.shinetech_imx688_rear.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.shinetech_ov32c4c.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.shinetech_ov32c4c.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.sony_imx888.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sony_imx888.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_s5k33dxx.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_s5k33dxx.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_s5k33dxx_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_s5k33dxx_front.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.sensorsocmap.socid_map.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensorsocmap.socid_map.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.tuned.default.sun.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.sun.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.tuned.qtech_imx766.sun.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.qtech_imx766.sun.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.tuned.qtech_imx858.sun.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.qtech_imx858.sun.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.tuned.qtech_s5kjn1.sun.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.qtech_s5kjn1.sun.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.tuned.shinetech_imx688_rear.sun.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.shinetech_imx688_rear.sun.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.tuned.shinetech_ov32c.sun.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.shinetech_ov32c.sun.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.tuned.sony_imx888.sun.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sony_imx888.sun.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/com.qti.tuned.tpg.sun.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.tpg.sun.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/dodgefront_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/dodgefront_3.pb \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/fdconfigoffline.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigoffline.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/fdconfigsecure.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigsecure.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/hummerFront_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/hummerFront_3.pb \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/imx480_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx480_3.pb \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/imx615_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx615_3.pb \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/petrelfrontmain_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/petrelfrontmain_3.pb \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/petrelfrontsub_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/petrelfrontsub_4.pb \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/qfdserviceconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/qfdserviceconfig.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/lib64/camera/zffront_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/zffront_3.pb
+    vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
     android.hardware.bluetooth.audio-impl_prebuilt \
     btaudio_offload_if \
-    com.qti.eeprom.gt24p128c2csli_imx766 \
-    com.qti.eeprom.gt24p128e2csli_s5kjn1 \
-    com.qti.eeprom.irs2381c_polar \
-    com.qti.eeprom.truly_cmb433 \
-    com.qti.ois.bu63169gwz \
-    com.qti.ois.dw9784 \
-    com.qti.sensor.imx362 \
-    com.qti.sensor.imx363 \
-    com.qti.sensor.imx376 \
-    com.qti.sensor.imx386 \
-    com.qti.sensor.imx476 \
-    com.qti.sensor.imx481 \
-    com.qti.sensor.imx519 \
-    com.qti.sensor.imx563 \
-    com.qti.sensor.imx576 \
-    com.qti.sensor.imx586 \
-    com.qti.sensor.imx588 \
-    com.qti.sensor.imx686 \
-    com.qti.sensor.imx688 \
-    com.qti.sensor.imx766 \
-    com.qti.sensor.imx858 \
-    com.qti.sensor.imx888 \
-    com.qti.sensor.max7366_6dof \
-    com.qti.sensor.max7366_eyetrack \
-    com.qti.sensor.max7366_ov6211 \
-    com.qti.sensor.max7366_ov9282 \
-    com.qti.sensor.ov13855 \
-    com.qti.sensor.ov32c4c \
-    com.qti.sensor.ov64b40 \
-    com.qti.sensor.ov7251 \
-    com.qti.sensor.s5k2l7 \
-    com.qti.sensor.s5k2x5sp \
-    com.qti.sensor.s5k33dxx \
-    com.qti.sensor.s5k3m5 \
-    com.qti.sensor.s5k3p9 \
-    com.qti.sensor.s5k4h7 \
-    com.qti.sensor.s5k5e9yu05 \
-    com.qti.sensor.s5k5e9yx04 \
-    com.qti.sensor.s5khp1s \
-    com.qti.sensor.s5kjd1sp \
-    com.qti.sensor.s5kjn1 \
-    com.qti.eisv2 \
-    com.qti.eisv3 \
-    com.qti.hvx.addconstant \
-    com.qti.hvx.binning \
-    com.qti.hwcfg.bps \
-    com.qti.hwcfg.ife \
-    com.qti.hwcfg.ipe \
-    com.qti.hwcfg.mctfe \
-    com.qti.hwcfg.ofe \
-    com.qti.node.afbfusion \
-    com.qti.node.aon \
-    com.qti.node.customhwnode \
-    com.qti.node.depth \
-    com.qti.node.depthprovider \
-    com.qti.node.dewarp \
-    com.qti.node.dummydepth \
-    com.qti.node.dummyrtb \
-    com.qti.node.dummysat \
-    com.qti.node.eisv2 \
-    com.qti.node.eisv3 \
-    com.qti.node.evadepth \
-    com.qti.node.evaitof \
-    com.qti.node.evawarp \
-    com.qti.node.evs \
-    com.qti.node.fcv \
-    com.qti.node.fd \
-    com.qti.node.formatconversion \
-    com.qti.node.frc \
-    com.qti.node.gme \
-    com.qti.node.gpu \
-    com.qti.node.gyrornn \
-    com.qti.node.hdr10pgen \
-    com.qti.node.hdr10phist \
-    com.qti.node.hdralign \
-    com.qti.node.itofpreprocess \
-    com.qti.node.mctfalign \
-    com.qti.node.memcpy \
-    com.qti.node.ml \
-    com.qti.node.mlinference \
-    com.qti.node.mmfalign \
-    com.qti.node.muxer \
-    com.qti.node.qsatalign \
-    com.qti.node.rectification \
-    com.qti.node.remosaic \
-    com.qti.node.sat \
-    com.qti.node.seg \
-    com.qti.node.spdepth \
-    com.qti.node.stich \
-    com.qti.node.swaidenoiser \
-    com.qti.node.swaisr \
-    com.qti.node.swbestats \
-    com.qti.node.swcac \
-    com.qti.node.swec \
-    com.qti.node.swfusion \
-    com.qti.node.swhme \
-    com.qti.node.swlsc \
-    com.qti.node.swmctf \
-    com.qti.node.swmlremosaic \
-    com.qti.node.swpdpc \
-    com.qti.node.swpreprocess \
-    com.qti.node.swregistration \
-    com.qti.node.swvrt \
-    com.qti.stats.aec \
-    com.qti.stats.aecwrapper \
-    com.qti.stats.aecxcore \
-    com.qti.stats.af \
-    com.qti.stats.afc \
-    com.qti.stats.afd \
-    com.qti.stats.afwrapper \
-    com.qti.stats.asd \
-    com.qti.stats.awb \
-    com.qti.stats.awbr \
-    com.qti.stats.awbwrapper \
-    com.qti.stats.caflogicaldriver \
-    com.qti.stats.cnndriver \
-    com.qti.stats.exampleaf \
-    com.qti.stats.haf \
-    com.qti.stats.hafoverride \
-    com.qti.stats.localhistogram \
-    com.qti.stats.pdlib \
-    com.qti.stats.pdlibsony \
-    com.qti.stats.pdlibwrapper \
-    com.qti.stats.roimixer \
-    com.qti.stats.roimixerlib \
-    com.qti.stats.statsgenerator \
-    com.qti.stats.tracker \
-    com.qtistatic.stats.aec \
-    com.qtistatic.stats.af \
-    com.qtistatic.stats.awb \
-    com.qtistatic.stats.pdlib \
-    libcamxdummysatsnapshotfusionwrapper \
-    libcamxdummysatsoftwarefusionwrapper \
-    libcamxdummysatwrapper \
-    libcamxevainterface \
-    libdepthmapwrapper \
-    libdepthmapwrapper_itof \
-    libdepthmapwrapper_secure \
-    camx.device-impl \
-    camx.provider-impl \
-    com.qti.camx.chiiqutils \
-    com.qti.chifeaturecompatibility \
-    com.qti.chiusecaseselector \
-    com.qti.feature2.afbrckt \
-    com.qti.feature2.anchorsync \
-    com.qti.feature2.demux \
-    com.qti.feature2.derivedoffline \
-    com.qti.feature2.frc \
-    com.qti.feature2.fusion \
-    com.qti.feature2.generic.sm8750 \
-    com.qti.feature2.generic \
-    com.qti.feature2.gs.sm8750 \
-    com.qti.feature2.hdr \
-    com.qti.feature2.mcreprocrt.sm8750 \
-    com.qti.feature2.mcreprocrt \
-    com.qti.feature2.memcpy \
-    com.qti.feature2.metadataserializer \
-    com.qti.feature2.mfsr.sm8750 \
-    com.qti.feature2.mfsr \
-    com.qti.feature2.ml \
-    com.qti.feature2.mux \
-    com.qti.feature2.qcfa \
-    com.qti.feature2.raw2yuvhdr \
-    com.qti.feature2.rawhdr \
-    com.qti.feature2.realtimeserializer \
-    com.qti.feature2.rt \
-    com.qti.feature2.rtmcx.sm8750 \
-    com.qti.feature2.rtmcx \
-    com.qti.feature2.rtpostproc.sm8750 \
-    com.qti.feature2.rtpostproc \
-    com.qti.feature2.serializer \
-    com.qti.feature2.statsregeneration \
-    com.qti.feature2.stub \
-    com.qti.feature2.swmf \
-    com.qti.qseeaon \
-    com.qti.qseeutils \
-    com.qti.settings.sm8750 \
-    com.qti.stats.common \
-    com.qualcomm.mcx.distortionmapper \
-    com.qualcomm.mcx.linearmapper \
-    com.qualcomm.mcx.nonlinearmapper \
-    com.qualcomm.mcx.policy.mfl \
-    com.qualcomm.mcx.policy.sfl \
     com.qualcomm.qti.dpm.api@1.0_vendor \
-    com.qualcomm.qti.mcx.usecase.extension \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
@@ -1373,10 +399,6 @@ PRODUCT_PACKAGES += \
     libQnnHtpV79Skel.audio \
     libQnnHtpV79Stub.audio \
     libQnnSystem.audio \
-    camera.qcom.sm8750 \
-    camera.qcom \
-    com.qti.chi.offline \
-    com.qti.chi.override \
     libaudiocorehal.default \
     libaudiocorehal.qti \
     libaudioeffecthal.qti \
@@ -1408,7 +430,6 @@ PRODUCT_PACKAGES += \
     libQSEEComAPI \
     libQcelp13SwCodec \
     libSensorsInterface \
-    libSonyIMX471RmscLibrary \
     libVoiceSdk \
     libWlanServiceJni \
     libadm \
@@ -1417,9 +438,6 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libaidenoiser \
-    libaidenoiserv2 \
-    libaisr \
     libaodoptfeature \
     libapengine \
     libappclassifier \
@@ -1430,9 +448,6 @@ PRODUCT_PACKAGES += \
     libaudioplatformconverter.qti \
     libaudioserviceexampleimpl \
     libbacklight-calib \
-    libbgstatsmerger \
-    libbitmlengine \
-    libbitmlenginev2 \
     libbluetooth_audio_session_aidl_prebuilt \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
@@ -1440,36 +455,12 @@ PRODUCT_PACKAGES += \
     libbt-hidlclient \
     libbtnv \
     libcacertclient \
-    libcamxcommonutils \
-    libcamxcoreutils \
-    libcamxcsl \
-    libcamxexternalformatutils \
-    libcamxfdengine \
-    libcamxhwlfrontend \
-    libcamxhwlipedriver \
-    libcamxhwnodecontext \
-    libcamxifestriping \
-    libcamximageformatutils \
-    libcamxncsdatafactory \
-    libcamxods \
-    libcamxofehwl \
-    libcamxqsatalgo \
-    libcamxsettingsmanager \
-    libcamxstatscore \
-    libcamxswispiqmodule \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
-    libcamxvppservicebase \
     libcapiv2svacnnvendor \
     libcapiv2svarnnvendor \
     libcapiv2udk7vendor \
     libcapiv2uvvendor \
     libcdsp_default_listener \
     libcdsprpc \
-    libchifeature2 \
-    libchilog \
-    libchinodeevautils \
-    libchinodehmeutils \
     libclstc_algorithm_adapter \
     libclstc_gcp_adapter \
     libclstc_tm \
@@ -1477,15 +468,12 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
-    libcom.qti.chinodeutils \
-    libcommonchiutils \
     libconfigdb \
     libcpion \
     libcv_common \
     libcwb_client_vendor \
     libcwb_qcom_aidl \
     libdemura_oem_plugin \
-    libdepthcomputation \
     libdiag \
     libdigital-dimming \
     libdisp-aba \
@@ -1509,27 +497,16 @@ PRODUCT_PACKAGES += \
     libgpt \
     libgpudataproducer \
     libgsl \
-    libhdr10plus \
     libhdr_backlight_adapter \
-    libhdr_stub \
     libhdr_tm \
     libhdrdynamic \
     libhdrdynamicootf \
     libhdrvivid \
     libhistogram \
-    libhme \
     libhwcsensor \
-    libhwliqinterface2 \
-    libhwlispcffdump \
-    libiccprofile \
     libidl \
     libintervmipc \
-    libipebpsstriping \
-    libipebpsstriping170 \
-    libipebpsstriping480 \
-    libisphwsetting \
     libjnihelper \
-    libjpege \
     libkcl \
     libkernelmanager \
     libkeymasterdeviceutils \
@@ -1547,26 +524,15 @@ PRODUCT_PACKAGES += \
     libloadalgo_stub \
     libmapperutils \
     libmcs \
-    libmctfengine_stub \
     libmdmdetect \
     libmdsprpc \
     libmemperfd \
     libmemutils \
     libmeters-ns \
     libmeters \
-    libmfGhostDetection \
-    libmfec \
-    libmidasserviceintf_aidl \
     libminkdescriptor \
     libminkipcbinder_vendor \
     libminksocket_vendor \
-    libmlremosaicengine \
-    libmmcamera_bestats \
-    libmmcamera_cac \
-    libmmcamera_lscv35 \
-    libmmcamera_mfnr \
-    libmmcamera_mfnr_t4 \
-    libmmcamera_pdpc \
     libmmosal_vendor \
     libmmrtpdecoder_vendor \
     libmmrtpencoder_vendor \
@@ -1596,15 +562,7 @@ PRODUCT_PACKAGES += \
     libnspsuperresolutionserviceextension \
     libnsptransaction \
     liboemcrypto \
-    libofestriping \
-    libois_channel_stub \
-    liboischannel \
     libolc_vnd_vendor \
-    libopencv \
-    libopencv3a \
-    libopencv_core \
-    libopencv_imgproc \
-    libopestriping \
     libops \
     libos \
     libosensenativeproxy_client_vendor \
@@ -1614,13 +572,10 @@ PRODUCT_PACKAGES += \
     libperfconfig \
     libperfioctl \
     libperipheral_client \
-    libpnc \
     libpowercore \
     libprefapps \
     libprekill \
     libprocomp \
-    libproj_qmot_tracker \
-    libproj_sot \
     libpsmoptfeature \
     libq-perflog \
     libqapesdk \
@@ -1660,11 +615,7 @@ PRODUCT_PACKAGES += \
     libqesdk2_0 \
     libqesdk_manager \
     libqesdoem_query_sys \
-    libqfdadapter \
-    libqfdservice \
     libqisl \
-    libqll \
-    libqllengine \
     libqmi \
     libqmi_cci \
     libqmi_client_helper \
@@ -1679,10 +630,8 @@ PRODUCT_PACKAGES += \
     libqrtr \
     libqrtrclient \
     libqseed3 \
-    libqsegnet \
     libqsh \
     libqsh_ble_pb \
-    libqshcamera \
     libqsocket \
     libqspm-mem-utils-vendor \
     libqti-perfd-client \
@@ -1717,10 +666,8 @@ PRODUCT_PACKAGES += \
     libseclog \
     libsensorcal \
     libsensorslog \
-    libsfeShiftExtrapolation \
     libshsc \
     libsilkyscrolls \
-    libsiminputgenutil \
     libskewknob \
     libsmemlog \
     libsnapdragoncolor-manager \
@@ -1736,26 +683,21 @@ PRODUCT_PACKAGES += \
     libsnsutils \
     libsoc_helper \
     libspcom \
-    libspectre \
     libspl \
     libssc_default_listener \
     libssd \
     libstandbyfeature \
     libstreamparser \
-    libswregistrationalgo \
     libsynx \
     libtaautoload \
     libtensorflowlite_c \
     libtestutils \
-    libtfestriping \
     libthermalclient \
     libthreadutils \
     libtime_genoff \
     libtinyxml2_1 \
     libtrustedapploader \
-    libubifocus \
     libubwcp \
-    libvideoml \
     libvideooptfeature \
     libvideotxr \
     libvideoutils \
@@ -1831,7 +773,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmframework \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
-    vendor.oplus.hardware.cammidasservice-V1-ndk_vendor \
     vendor.oplus.hardware.cwb-V1-ndk \
     vendor.oplus.hardware.cwb@1.0 \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk_vendor \
@@ -1846,8 +787,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar-V1-ndk \
     vendor.qti.hardware.bttpi-V3-ndk \
     vendor.qti.hardware.cacertaidlservice-V1-ndk \
-    vendor.qti.hardware.camera.aon-service-impl \
-    vendor.qti.hardware.camera.offlinecamera-service-impl \
     vendor.qti.hardware.capabilityconfigstore-V1-ndk \
     vendor.qti.hardware.data.cneaidlservice.internal.api-V1-ndk \
     vendor.qti.hardware.data.cneaidlservice.internal.constants-V1-ndk \
@@ -1950,65 +889,7 @@ PRODUCT_PACKAGES += \
     libQnnHtp.aiboost \
     libQnnHtpV79Stub.aiboost \
     libQnnSystem.aiboost \
-    com.qti.sensor.dodgefront \
-    com.qti.sensor.dodgemain \
-    com.qti.sensor.dodgetele \
-    com.qti.sensor.dodgetele2 \
-    com.qti.sensor.dodgeultrawide \
-    com.oplus.node.depth \
-    com.oplus.node.evaof \
-    com.oplus.node.mvgsat \
-    com.oplus.node.preview \
-    com.oplus.node.sstabdefer \
-    com.oplus.node.sstabphoto \
-    com.oplus.node.sstabrealt \
-    com.oplus.stats.aec \
-    com.oplus.stats.af \
-    com.oplus.stats.awb \
-    com.oplus.stats.pdlib \
-    libcamxoemsatsoftwarefusionwrapper \
-    libcamxoemsatwrapper \
-    libopluscolorsensorwrapper \
-    com.oplus.mcx.linearmapper \
-    camera.oemlayer \
-    lib2DSlender \
-    libAECParamParser \
-    libAF \
-    libAFParamParser \
-    libAlgoInterface \
-    libAlgoProcess \
-    libAncFilter \
-    libAncHumanSegFigureFusion \
-    libAncSegBaseSdk \
-    libAncSegmentSdk \
-    libBasicTonePhoto \
-    libBokehPre \
-    libCS \
-    libCaptureBokeh \
-    libEIS \
-    libFDClite \
-    libFaceBeautyCap \
-    libFaceBeautyJni \
-    libFaceBeautyPre \
-    libFaceDistortionCorrection \
     libGaiaClient_vnd \
-    libHDRDetection \
-    libHIS \
-    libImageWarpMask \
-    libImplicitWatermark \
-    libODNN \
-    libOPAlgoCamAIBeautyBodyDetection \
-    libOPAlgoCamAiBeautyFaceRetouchCn \
-    libOPAlgoCamAiUnifySkin \
-    libOPAlgoCamFaceBeautyCap \
-    libOPAlgoCamFaceRestore \
-    libOPAlgoCamGroupClassifier \
-    libOPAlgoCamHybridRaw \
-    libOPAlgoCamSinglePortrait \
-    libOPLUSMotionDetection \
-    libOplusPDCore \
-    libOpo_awb \
-    libPDParamParser \
     libQnnCpu \
     libQnnGpu \
     libQnnHtp \
@@ -2017,57 +898,12 @@ PRODUCT_PACKAGES += \
     libQnnHtpV79Stub \
     libQnnSaver \
     libQnnSystem \
-    libRedeyeReduce \
-    libSuperRaw \
-    libUpScale \
-    libWaterMark \
-    lib_rectify \
-    libaecCustom \
-    libai_perception_scene_detect \
     libaiboost_qnn_external_delegate_te \
     libaiboost_qnn_sr \
     libaiboost_sr \
     libaiboost_te \
     libaiboost_ubwc \
-    libaisal \
-    libaisd \
-    libaisd_fullfov \
-    libaiseg \
-    libalCFR \
-    libancbase_rt_fusion \
-    libapsexif \
-    libapsjpeg \
-    libapspng \
-    libapsultrahdr \
-    libapsyuv \
-    libarc.ion \
-    libarcsoft_ai_moon \
-    libarcsoft_dualcam_bokeh_api \
-    libarcsoft_dualcam_bokeh_image \
-    libarcsoft_dualcam_bokeh_preview \
-    libarcsoft_hdr_couple_api \
-    libarcsoft_high_dynamic_range_couple \
-    libarcsoft_long_exposure_capture \
-    libarcsoft_long_exposure_preview \
-    libarcsoft_preview_antibanding \
-    libarcsoft_qnnhtp \
-    libarcsoft_scbokeh_video \
-    libarcsoft_smart_denoise \
-    libarcsoft_turbo_fusion_raw_portrait_super_night \
-    libarcsoft_turbo_fusion_raw_super_night \
-    libarcsoft_turbo_hdr_grf \
-    libarcsoft_turbo_hdr_raw \
-    libarcsoft_turbo_hdr_raw_front \
-    libarcsoft_turbo_raw \
-    libarcsoft_videoautozoom \
-    libc++_shared \
     libc2filterplugin \
-    libcam.oplus.3a.v2 \
-    libcam.oplus.3a.v3 \
-    libcreatebin \
-    libcreatebinForBaseretouch \
-    libcreatebinForFaceretouch \
-    libcvface_api \
     libdisplayfossfeature_nature \
     libdisplaysharpness \
     libdolbyclstc \
@@ -2076,65 +912,24 @@ PRODUCT_PACKAGES += \
     libdolbyencoderprocessor \
     libdolbyottcameracontrol \
     libdpaservice \
-    libeffect_custom \
-    libexif-jpeg-aps \
-    libextendfile \
-    libextensionlayer \
-    libfovctrl \
-    libhwconfigurationutil \
-    libhybridraw_datas \
-    libhybridraw_tuningparams \
-    libimgClarityEvaluate \
-    libmpbase \
-    libmsnativefilter \
-    libmvgcommon \
-    libmvgfusion \
-    libocce3a \
-    libocompression \
     libolc_vnd \
     liboplus-uah-client \
     liboplus_service \
-    liboplusdfx \
-    libopluspdparam \
     liboprec_audrec \
     liboprec_audrec_wrapper \
     libosenseaidlhalclient \
     libosensenativeproxy_client \
-    liboutils \
-    libpngwrapper \
     libqcodec2_dolbydecoderfilter \
     libqcodec2_dolbyencoderfilter \
-    libsat \
-    libsaveshaderbin \
-    libsegmentPrePostProc \
-    libsharebuffer \
-    libsharebuffer_impl \
-    libssd_det \
-    libstface_fd_api \
     libstfaceunlockocl_uff \
-    libstfd_mobile_api \
     libtensorflowlite_oplus \
     libtfa98xx \
-    libtrace \
     libuahcore \
     liburcccore \
-    libvega_common \
-    libvega_face \
-    libwatermark_photo \
-    libwrapper_te \
-    libyuvwrapper \
-    libzlib \
-    vendor.oplus.hardware.camera.aon-V1-ndk_platform \
-    vendor.oplus.hardware.camera.aon-service-impl \
-    vendor.oplus.hardware.camera_rfi-V1-ndk \
-    vendor.oplus.hardware.camera_rfi-V1-service-impl \
-    vendor.oplus.hardware.cammidasservice-V1-ndk \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk \
     vendor.oplus.hardware.displaypanelfeature-V1-ndk_odm \
     vendor.oplus.hardware.olc2-V1-ndk \
     vendor.oplus.hardware.olc2-V2-ndk \
-    vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
-    vendor.oplus.hardware.sendextcamcmd-V2-ndk \
     vendor.oplus.hardware.stability.oplus_project-V2-ndk \
     vendor.oplus.hardware.urcc-V1-ndk \
     libQnnHtpV79Skel.aiboost \
@@ -2184,9 +979,6 @@ PRODUCT_PACKAGES += \
     qasr_vintf.xml \
     qesdk-manager.xml \
     snapdragon_services.xml \
-    vendor.qti.camera.aon-impl.xml \
-    vendor.qti.camera.offlinecamera-impl.xml \
-    vendor.qti.camera.provider.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.hardware.alarm.xml \
     vendor.qti.hardware.capabilityconfigstore-service.xml \
@@ -2205,16 +997,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal-service.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
     manifest_displaycolorfeature_aidl.xml \
-    manifest_oplus_camera_rfi.xml \
-    manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_charger_aidl.xml \
     manifest_oplus_cwb_aidl.xml \
     manifest_oplus_displaypanelfeature_aidl.xml \
     manifest_oplus_face.xml \
-    manifest_oplus_sendextcamcmd.xml \
     manifest_oplus_stability_project_aidl.xml \
     manifest_touch_aidl.xml \
-    vendor.oplus.camera.aon-impl.xml \
     vendor.oplus.hardware.urcc-service.xml \
     adpl \
     adsprpcd \
@@ -2232,7 +1020,6 @@ PRODUCT_PACKAGES += \
     android.hardware.identity-service-qti \
     android.hardware.security.keymint-service-qti \
     qconfigservice \
-    vendor.qti.camera.provider-service_64 \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore-service \
     vendor.qti.hardware.display.color-service \
@@ -2304,7 +1091,6 @@ PRODUCT_PACKAGES += \
     wfdservice64 \
     vendor-oplus-hardware-touch-V2-service \
     vendor.oplus.hardware.biometrics.face@1.0-service_uff \
-    vendor.oplus.hardware.cammidasservice-V1-service \
     vendor.oplus.hardware.charger-V7-service \
     vendor.oplus.hardware.displaypanelfeature-service \
     vendor.oplus.hardware.stability.oplus_project-V1-service \
