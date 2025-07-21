@@ -17716,30 +17716,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.kernel.post_boot-memory",
-    owner: "oneplus",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-memory.sh",
-    filename: "init.kernel.post_boot-memory.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-sun",
-    owner: "oneplus",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-sun.sh",
-    filename: "init.kernel.post_boot-sun.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-sun_default_6_2",
-    owner: "oneplus",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-sun_default_6_2.sh",
-    filename: "init.kernel.post_boot-sun_default_6_2.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.kernel.post_boot",
     owner: "oneplus",
     src: "proprietary/vendor/bin/init.kernel.post_boot.sh",

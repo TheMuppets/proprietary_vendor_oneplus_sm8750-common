@@ -1031,9 +1031,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
     init.kernel.init_boot-memory \
-    init.kernel.post_boot-memory \
-    init.kernel.post_boot-sun \
-    init.kernel.post_boot-sun_default_6_2 \
     init.kernel.post_boot \
     init.qcom.class_core \
     init.qcom.post_boot \
