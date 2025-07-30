@@ -19,8 +19,7 @@ do
 		blocklist_expr="-e %"
 	fi
 	# Filter out modules in blocklist - we would see unnecessary errors otherwise
-	# disable kernel origin zram or zsmalloc module and using hybridzram instead.
-	load_modules=$(find ${dir} -name "*.ko" | grep -w -v ${blocklist_expr} -e "zram" -e "zsmalloc")
+	load_modules=$(find ${dir} -name "*.ko" | grep -w -v ${blocklist_expr} )
 	first_module=$(echo ${load_modules} | cut -d " " -f1)
 	other_modules=$(echo ${load_modules} | cut -d " " -f2-)
 	if ! ${MODPROBE} -b -s -d ${dir} -a ${first_module} > /dev/null ; then
