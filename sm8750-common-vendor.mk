@@ -763,10 +763,16 @@ PRODUCT_PACKAGES += \
     libvpp_svc_skel \
     libvpp_vqa_networks \
     libworker_pool \
+    libbundleaidl \
+    libdownmixaidl \
+    libdynamicsprocessingaidl \
+    libloudnessenhanceraidl \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libquasar \
+    libreverbaidl \
+    libvisualizeraidl \
     libvolumelistener \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
