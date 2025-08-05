@@ -1178,6 +1178,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
+    vendor/oneplus/sm8750-common/proprietary/vendor/etc/permissions/com.android.se.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.se.xml \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/qcril_database/upgrade/config/0006.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0006.0_config.sql \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/qcril_database/upgrade/config/0007.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0007.0_config.sql \
@@ -1436,6 +1437,7 @@ PRODUCT_PACKAGES += \
     deviceinfo-saidl.xml \
     imsdcservice-saidl.xml \
     qms-saidl.xml \
+    secure_element-service-omapi.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.radio.qtiradioconfig.xml \
     vendor.qti.hardware.soter-service.xml \

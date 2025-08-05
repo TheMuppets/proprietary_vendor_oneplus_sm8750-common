@@ -25555,6 +25555,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "secure_element-service-omapi.xml",
+    owner: "oneplus",
+    src: "proprietary/vendor/etc/vintf/manifest/secure_element-service-omapi.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "vendor.qti.gnss-service.xml",
     owner: "oneplus",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml",
