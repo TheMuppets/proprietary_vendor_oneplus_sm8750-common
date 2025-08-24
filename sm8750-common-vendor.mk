@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V7-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V7-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.urcc-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.urcc-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/uah/uahconfig.pb:$(TARGET_COPY_OUT_ODM)/etc/uah/uahconfig.pb \
     vendor/oneplus/sm8750-common/proprietary/odm/firmware/uff_face.b00:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b00 \
@@ -924,7 +923,6 @@ PRODUCT_PACKAGES += \
     libtensorflowlite_oplus \
     libtfa98xx \
     libuahcore \
-    liburcccore \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk \
     vendor.oplus.hardware.displaypanelfeature-V1-ndk_odm \
     vendor.oplus.hardware.olc2-V1-ndk \
@@ -1002,7 +1000,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_face.xml \
     manifest_oplus_stability_project_aidl.xml \
     manifest_touch_aidl.xml \
-    vendor.oplus.hardware.urcc-service.xml \
     adpl \
     adsprpcd \
     cdsprpcd \
@@ -1089,7 +1086,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.charger-V7-service \
     vendor.oplus.hardware.displaypanelfeature-service \
     vendor.oplus.hardware.stability.oplus_project-V1-service \
-    vendor.oplus.hardware.urcc-service \
     wlschgd \
     init.oplus.wifi \
     oplus_sensor_fb \
