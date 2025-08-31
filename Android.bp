@@ -720,6 +720,9 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    required: [
+        "manifest_audiocorehal_default.xml",
+    ],
 }
 
 cc_prebuilt_library_shared {
@@ -806,6 +809,9 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    required: [
+        "audioeffectservice_qti.xml",
+    ],
 }
 
 cc_prebuilt_library_shared {
@@ -16151,15 +16157,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "audioeffectservice_qti.xml",
-    owner: "oneplus",
-    src: "proprietary/vendor/etc/vintf/manifest/audioeffectservice_qti.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "bluetooth-finder.xml",
     owner: "oneplus",
     src: "proprietary/vendor/etc/vintf/manifest/bluetooth-finder.xml",
@@ -16244,15 +16241,6 @@ prebuilt_etc_xml {
     name: "dpm-saidl.xml",
     owner: "oneplus",
     src: "proprietary/vendor/etc/vintf/manifest/dpm-saidl.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "manifest_audiocorehal_default.xml",
-    owner: "oneplus",
-    src: "proprietary/vendor/etc/vintf/manifest/manifest_audiocorehal_default.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,

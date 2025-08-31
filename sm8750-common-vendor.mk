@@ -937,7 +937,6 @@ PRODUCT_PACKAGES += \
     dpmapi \
     android.hardware.drm-service.xml \
     android.hardware.security.keymint-service-qti.xml \
-    audioeffectservice_qti.xml \
     bluetooth-finder.xml \
     bluetooth_hci.xml \
     bluetooth_sar.xml \
@@ -948,7 +947,6 @@ PRODUCT_PACKAGES += \
     cacert-saidl.xml \
     datafactoryservice-saidl.xml \
     dpm-saidl.xml \
-    manifest_audiocorehal_default.xml \
     manifest_btaudiocoreservices_qti.xml \
     manifest_identity_credential.xml \
     mwqem-saidl.xml \
