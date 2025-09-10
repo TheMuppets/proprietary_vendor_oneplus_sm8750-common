@@ -15703,31 +15703,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libstfaceunlockocl_uff",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libstfaceunlockocl_uff.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libOpenCL",
-                "libm",
-                "libc",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libtensorflowlite_oplus",
     owner: "oneplus",
     strip: {
@@ -16591,15 +16566,6 @@ prebuilt_etc_xml {
     name: "manifest_oplus_displaypanelfeature_aidl.xml",
     owner: "oneplus",
     src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature_aidl.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "manifest_oplus_face.xml",
-    owner: "oneplus",
-    src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_face.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     device_specific: true,
@@ -19004,60 +18970,6 @@ cc_prebuilt_binary {
                 "libutils",
                 "libhardware",
                 "libbinder",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    device_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.oplus.hardware.biometrics.face@1.0-service_uff",
-    owner: "oneplus",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service_uff",
-            ],
-            shared_libs: [
-                "libbinder",
-                "liblog",
-                "libcutils",
-                "libhardware",
-                "libutils",
-                "libui",
-                "libbase",
-                "libhidlbase",
-                "libcamera2ndk_vendor",
-                "libmediandk",
-                "libnativewindow",
-                "libtinyxml2",
-                "libprocessgroup",
-                "libstfaceunlockocl_uff",
-                "libbinder_ndk",
-                "libdmabufheap",
-                "android.hardware.biometrics.face-V4-ndk",
-                "android.hardware.biometrics.common-V4-ndk",
-                "android.hardware.keymaster-V4-ndk",
-                "libQSEEComAPI",
-                "libion",
-                "vendor.oplus.hardware.performance-V1-ndk",
-                "vendor.oplus.hardware.osense.client-V1-ndk",
-                "libosenseaidlhalclient",
-                "liboplus-uah-client",
-                "libosensenativeproxy_client",
-                "libolc_vnd",
-                "libsensorndkbridge",
-                "vendor.oplus.hardware.commondcs-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
