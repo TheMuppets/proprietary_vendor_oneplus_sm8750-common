@@ -916,7 +916,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.olc2-V1-ndk \
     vendor.oplus.hardware.olc2-V2-ndk \
     vendor.oplus.hardware.stability.oplus_project-V2-ndk \
-    vendor.oplus.hardware.urcc-V1-ndk \
     libQnnHtpV79Skel.aiboost \
     libaiboostubwc_skel \
     capi_v3_oprec \
