@@ -1117,7 +1117,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/firmware/secure_ta/alipay.b08:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/alipay.b08 \
     vendor/oneplus/sm8750-common/proprietary/odm/firmware/secure_ta/alipay.mdt:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/alipay.mdt \
     vendor/oneplus/sm8750-common/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
-    vendor/oneplus/sm8750-common/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
     vendor/oneplus/sm8750-common/proprietary/system/etc/permissions/uimremoteclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/uimremoteclient.xml \
     vendor/oneplus/sm8750-common/proprietary/system/etc/permissions/uimremoteserver.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/uimremoteserver.xml \
     vendor/oneplus/sm8750-common/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
@@ -1377,7 +1376,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.subsys_radio-V4-ndk \
     uimremoteclient \
     uimremoteserver \
-    EuiccGoogle \
     ImsDataChannelService \
     ImsRcsService \
     QtiTelephonyService \
