@@ -44,13 +44,6 @@ do
 		blocklist_expr="-e %"
 	fi
 
-	#ifdef OPLUS_FEATURE_WIFI_FTM
-	#lixiong2@CONNECTIVITY.WIFI.HARDWARE.FTM.7440900, 2024.6.11, add for ftm mode not probe wifi driver in sleep test
-	if [ "$(cat /sys/systeminfo/ftmmode)" == "3" ]; then
-		blocklist_expr+=" -e qca_cld3_peach_v2 -e qca_cld3_peach"
-	fi
-	#endif /* OPLUS_FEATURE_WIFI_FTM */
-
 	# Filter out modules in blocklist - we would see unnecessary errors otherwise
 	load_modules=$(sed = ${dir}/modules.load | sed 'N;s/\n/\t/' | sort -uk2 | sort -nk1 | cut -f2- | grep -w -v ${blocklist_expr} | grep -w -v ${audio_blocklist_expr})
 	first_module=$(echo ${load_modules} | cut -d " " -f1)
