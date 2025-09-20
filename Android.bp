@@ -19176,14 +19176,6 @@ cc_prebuilt_binary {
     device_specific: true,
 }
 
-sh_binary {
-    name: "vendor.autochmod",
-    owner: "oneplus",
-    src: "proprietary/odm/bin/vendor.autochmod.sh",
-    filename: "vendor.autochmod.sh",
-    device_specific: true,
-}
-
 install_symlink {
     name: "system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so",
     system_ext_specific: true,

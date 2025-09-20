@@ -1074,8 +1074,7 @@ PRODUCT_PACKAGES += \
     wlschgd \
     init.oplus.wifi \
     oplus_sensor_fb \
-    touchDaemon \
-    vendor.autochmod
+    touchDaemon
 
 PRODUCT_PACKAGES += \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
