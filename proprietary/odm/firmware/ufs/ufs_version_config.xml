@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<FIRMWARE>
-		<File name="HN8T274EJKX130" manufacturer="SKhynix" target_version="A304"></File>
-		<File name="HN8T174EJKX075" manufacturer="SKhynix" target_version="A304"></File>
-		<File name="HN8T374ZJKX141" manufacturer="SKhynix" target_version="A304"></File>
-		<File name="KLUFG4NHHB-F0G1" manufacturer="SAMSUNG" target_version="1200"></File>
-</FIRMWARE>
-

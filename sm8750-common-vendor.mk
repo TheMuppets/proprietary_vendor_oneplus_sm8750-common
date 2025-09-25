@@ -38,12 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/uah/uahconfig.pb:$(TARGET_COPY_OUT_ODM)/etc/uah/uahconfig.pb \
-    vendor/oneplus/sm8750-common/proprietary/odm/firmware/ufs/SAMSUNG-KLUFG4NHHB-F0G1.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SAMSUNG-KLUFG4NHHB-F0G1.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/firmware/ufs/SKhynix-HN8T174EJKX075.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-HN8T174EJKX075.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/firmware/ufs/SKhynix-HN8T274EJKX130.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-HN8T274EJKX130.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/firmware/ufs/SKhynix-HN8T374ZJKX141.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-HN8T374ZJKX141.bin \
-    vendor/oneplus/sm8750-common/proprietary/odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh:$(TARGET_COPY_OUT_ODM)/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh \
-    vendor/oneplus/sm8750-common/proprietary/odm/firmware/ufs/ufs_version_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/ufs/ufs_version_config.xml \
     vendor/oneplus/sm8750-common/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/sm8750-common/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
     vendor/oneplus/sm8750-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
