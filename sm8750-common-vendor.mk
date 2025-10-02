@@ -896,8 +896,6 @@ PRODUCT_PACKAGES += \
     libolc_vnd \
     liboplus-uah-client \
     liboplus_service \
-    liboprec_audrec \
-    liboprec_audrec_wrapper \
     libosenseaidlhalclient \
     libosensenativeproxy_client \
     libqcodec2_dolbydecoderfilter \

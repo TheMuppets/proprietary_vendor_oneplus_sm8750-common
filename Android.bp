@@ -15521,51 +15521,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liboprec_audrec",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/liboprec_audrec.so",
-            ],
-            shared_libs: [
-                "libc",
-                "liblog",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "liboprec_audrec_wrapper",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/liboprec_audrec_wrapper.so",
-            ],
-            shared_libs: [
-                "libc",
-                "liblog",
-                "liboprec_audrec",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libosenseaidlhalclient",
     owner: "oneplus",
     strip: {
