@@ -3,5 +3,15 @@
 # All rights reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #=============================================================================
+on early-init
+    write /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq 2745600
+    write /sys/devices/system/cpu/cpufreq/policy5/scaling_max_freq 3072000
+    write /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq 3072000
+
 on post-fs-data
     wait_for_prop vendor.all.modules.ready 1
+
+on boot
+    write /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq 3532800
+    write /sys/devices/system/cpu/cpufreq/policy5/scaling_max_freq 4320000
+    write /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq 4320000

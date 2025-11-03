@@ -1,12 +1,12 @@
 {
   "config": {
     "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK", "IDP", "IOT", "RCM"],
-    "soc_id": ["557", "577", "618", "639"]
+    "soc_id": ["557", "577", "618", "639", "655", "681", "694", "659", "686"]
   },
   "sns_gyro_cal_config": {
     "owner": "sns_gyro_cal",
-    "calibration_period": {"type": "int","ver": "0",
-      "data": "60"
+    "calibration_period": {"type": "int","ver": "1",
+      "data": "10"
     },
     "num_samples": {"type": "int","ver": "0",
       "data": "64"

@@ -52,9 +52,9 @@
             //======================================
             // Example of Cb: 0, Cr: -12,
             //((CB_offset = 0 << 8) & 0xFF00) | (CR_offset = 0xF4 & 0xFF) = 0xF4
-            // offset setting 0x00F4
-            //"enc_chroma_qp_offset_10_bit": 0x00F4,
-            //"enc_chroma_qp_offset_8_bit": 0x00F4,
+            // offset setting 0x00F4 (in decimal : 244)
+            //"enc_chroma_qp_offset_10_bit": 244,
+            //"enc_chroma_qp_offset_8_bit": 244,
             //======================================
             // video certified version capability used for MediaCodec - MLVEC
             "vt_certified_version": 0,
@@ -93,7 +93,13 @@
             // Default value of this wait time is 150ms, even if this value is not set in this file.
             // Lower wait time might increase the thread activity in some corner cases.
             // Higher wait time might affect stop latency in some cases.
-            "dec_bufferpool_fence_wait_time_ms": 150
+            "dec_bufferpool_fence_wait_time_ms": 150,
+            // do not override transfer value to 170M if stream contains unspecified transfer
+            "dec_send_clip_transfer_value" : 0,
+            // #ifdef OPLUS_BUG_COMPATIBILITY
+            // SunQinhua@MULTIMEDIA.MEDIASERVER.PLAYER, output 4K video without color info as BT.709
+            "default_primaries_override":1
+            // #endif OPLUS_BUG_COMPATIBILITY
         },
 
         "ProsightModeBitrateTable": [
@@ -130,10 +136,6 @@
             // WangZhikun@MULTIMEDIA.MEDIASERVER.PLAYER, Add for dolby vision(DPU) integration
             "libqcodec2_dolbyencoderfilter.so"
             // #endif /*OPLUS_FEATURE_DOLBY_VISION_DPU*/
-        ],
-
-        "QC2EncPostProcessingFilters": [
-            "libqcodec2_encpostprocfilter.so"
         ],
 
         //

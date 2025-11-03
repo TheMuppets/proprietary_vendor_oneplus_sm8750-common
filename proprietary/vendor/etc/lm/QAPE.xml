@@ -206,19 +206,20 @@
            <AsyncId>VENDOR_HINT_CONTENT_FPS</AsyncId>
            <AsyncType>1</AsyncType>
         </Trigger>
+        <Trigger>
+           <Primary>true</Primary>
+           <AsyncId>VENDOR_EVENT_INCAPACITATE_QAPE_APIS</AsyncId>
+           <AsyncType>1</AsyncType>
+        </Trigger>
     </Triggers>
     <PipelinedPackages>
-        <Package Name="DefaultGamePackage" NumThreads="2" /> <!-- Default Game Setting -->
-        <Package Name="com.tencent.ig" NumThreads="2" /> <!-- PubG -->
-        <Package Name="com.kiloo.subwaysurf" NumThreads="2" /> <!-- SubWaySurfer -->
+        <!-- Default Game Setting Removed with Auto Pipeline-->
+        <!--- <Package Name="DefaultGamePackage" NumThreads="2" />  -->
         <Package Name="com.epicgames.fortnite" NumThreads="3" /> <!-- Fortnite -->
-        <Package Name="com.tencent.tmgp.pubgmhd" NumThreads="2" /> <!-- GP -->
-        <Package Name="com.tencent.tmgp.sgame" NumThreads="3" /> <!-- HOK default -->
+        <Package Name="com.netease.yyslscn" NumThreads="3" /> <!-- WWM -->
         <Package Name="com.tencent.tmgp.sgame" FPS="60" NumThreads="2" /> <!-- HOK60 -->
-        <Package Name="com.miHoYo.Yuanshen" NumThreads="3" /> <!-- Genshin China -->
-        <Package Name="com.miHoYo.GenshinImpact" NumThreads="3" /> <!-- Genshin USA -->
-        <Package Name="com.miHoYo.hkrpg" NumThreads="3" /> <!-- StarRail -->
-        <Package Name="com.netease.pm02" NumThreads="3" /> <!-- Tianyu -->
+        <Package Name="com.tencent.tmgp.sgame" FPS="90" NumThreads="3" /> <!-- HOK90 -->
+        <Package Name="com.tencent.tmgp.sgame" FPS="120" NumThreads="3" /> <!-- HOK120 -->
     </PipelinedPackages>
     <IgnoredApps>
         <App>com.google.android.gms</App>

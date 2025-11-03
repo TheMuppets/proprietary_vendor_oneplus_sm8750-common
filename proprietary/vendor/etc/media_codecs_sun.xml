@@ -465,6 +465,26 @@
             <Feature name="region-of-interest" />
             <Limit name="performance-point-512x512" value="3825" />
         </MediaCodec>
+        <MediaCodec name="c2.qti.mvhevc.encoder" type="video/x-mvhevc">
+            <Limit name="size" min="96x96" max="4096x4096" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="36" max="3916800" />
+            <Limit name="block-count" range="36-138240" />
+            <Limit name="bitrate" range="1-160000000" />
+            <Limit name="frame-rate" range="1-480" />
+            <Limit name="complexity" range="0-100"  default="100" />
+            <Limit name="concurrent-instances" max="16" />
+            <Feature name="bitrate-modes" value="VBR,CBR" />
+            <Feature name="intra-refresh" />
+            <Feature name="encoding-statistics" />
+            <Feature name="video-minimum-quality" />
+            <Feature name="can-swap-width-height" required="true" />
+            <Limit name="performance-point-1920x1080" value="480" />
+            <Limit name="performance-point-1920x1080" value="240" />
+            <Limit name="performance-point-3840x2160" value="120" />
+            <Feature name="special-codec" required="true" />
+        </MediaCodec>
         <MediaCodec name="c2.qti.heic.encoder" type="image/vnd.android.heic">
             <Alias name="OMX.qcom.video.encoder.heic"/>
             <Limit name="size" min="512x512" max="16384x16384" />

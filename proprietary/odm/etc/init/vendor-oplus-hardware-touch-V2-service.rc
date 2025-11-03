@@ -70,5 +70,6 @@ on post-fs-data
     mkdir /data/vendor/touch/record 0771 system system
     mkdir /data/vendor/touch/log 0771 system system
     mkdir /data/vendor/touch/simulate 0771 system system
+    mkdir /data/vendor/touch/upload 0771 system system
     write /proc/sys/kernel/firmware_config/force_sysfs_fallback 1
 

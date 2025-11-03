@@ -6,3 +6,5 @@ libfastcvopt.so
 libOpenCL.so
 libAncFilter.so
 libarcsoft_scbokeh_video.so
+libaiboost.so
+libaiboost_llm.so

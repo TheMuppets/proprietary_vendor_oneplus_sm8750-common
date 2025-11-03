@@ -65,3 +65,17 @@ on post-fs-data
     copy /vendor/etc/2024-09-06_platform_RSA_SM8750_license_1c6f20f8-67d1-46ef-818d-469363847d91.pfm /mnt/vendor/persist/data/pfm/licenses/2024-09-06_platform_RSA_SM8750_license_1c6f20f8-67d1-46ef-818d-469363847d91.pfm
     chmod 0600 /mnt/vendor/persist/data/pfm/licenses/2024-09-06_platform_RSA_SM8750_license_1c6f20f8-67d1-46ef-818d-469363847d91.pfm
     chown system system /mnt/vendor/persist/data/pfm/licenses/2024-09-06_platform_RSA_SM8750_license_1c6f20f8-67d1-46ef-818d-469363847d91.pfm
+
+#Six.Xu@MM.Display.LCD, 2024/12/17, add SM8750 DMR development lisence
+on post-fs-data
+    copy /vendor/etc/2024-10-11_platform_RSA_SM8750_license_d07bab28-156e-49b6-9eda-103eb7c6f6de.pfm /mnt/vendor/persist/data/pfm/licenses/2024-10-11_platform_RSA_SM8750_license_d07bab28-156e-49b6-9eda-103eb7c6f6de.pfm
+    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/2024-10-11_platform_RSA_SM8750_license_d07bab28-156e-49b6-9eda-103eb7c6f6de.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/2024-10-11_platform_RSA_SM8750_license_d07bab28-156e-49b6-9eda-103eb7c6f6de.pfm
+
+#ifdef OPLUS_FEATURE_LTM
+#XinMi@MM.Display.LCD, 2025/03/31, add for SM7750 LTM
+on property:sys.boot_completed=1
+    copy /vendor/etc/platform_RSA_SM7750_license_92d223af-3d21-4f55-9012-e80398416b5a.pfm /mnt/vendor/persist/data/pfm/licenses/platform_RSA_SM7750_license_92d223af-3d21-4f55-9012-e80398416b5a.pfm
+    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/platform_RSA_SM7750_license_92d223af-3d21-4f55-9012-e80398416b5a.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/platform_RSA_SM7750_license_92d223af-3d21-4f55-9012-e80398416b5a.pfm
+#endif /* OPLUS_FEATURE_LTM */

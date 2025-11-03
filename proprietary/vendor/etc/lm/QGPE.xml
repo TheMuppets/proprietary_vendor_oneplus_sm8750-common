@@ -42,6 +42,51 @@
         <PredictiveEngine>0</PredictiveEngine>
         <ProactiveEngine>0</ProactiveEngine>
     </Configs>
+    <Configs target="tuna">
+        <STUTTER_SCALE>10</STUTTER_SCALE>
+        <THERMAL_MONITOR>1</THERMAL_MONITOR>
+        <THERMAL_MONITOR_RULES>GAME_OPT_TSENS_RULE1,GAME_OPT_TSENS_RULE2,GAME_OPT_TSENS_RULE3</THERMAL_MONITOR_RULES>
+        <!-- FPS threshold values in the order: Increase, Aggressive Increase, Decrease -->
+        <FPS_30_THRESHOLD>0.6, 1.0, 0.4</FPS_30_THRESHOLD>
+        <FPS_35_THRESHOLD>0.6, 1.0, 0.4</FPS_35_THRESHOLD>
+        <FPS_40_THRESHOLD>0.6, 1.0, 0.4</FPS_40_THRESHOLD>
+        <FPS_60_THRESHOLD>0.6, 1.0, 0.4</FPS_60_THRESHOLD>
+        <FPS_90_THRESHOLD>2.0, 5.0, 1.0</FPS_90_THRESHOLD>
+        <FPS_120_THRESHOLD>2.0, 5.0, 1.0</FPS_120_THRESHOLD>
+        <FPS_144_THRESHOLD>2.0, 5.0, 1.0</FPS_144_THRESHOLD>
+        <GROUP_UPMIGRATE_PATH>/proc/sys/walt/sched_group_upmigrate</GROUP_UPMIGRATE_PATH>
+        <GROUP_DOWNMIGRATE_PATH>/proc/sys/walt/sched_group_downmigrate</GROUP_DOWNMIGRATE_PATH>
+        <BIG_CLUSTER_ID>2,3,4,5,6,7</BIG_CLUSTER_ID>
+        <QSPM_EXCLUSIIVE>0</QSPM_EXCLUSIIVE>
+        <THERMAL_ATA_LEVEL_THRESHOLDS>-1, -1, -1</THERMAL_ATA_LEVEL_THRESHOLDS>
+        <THERMAL_ATA_SKIN_THRESHOLD>51</THERMAL_ATA_SKIN_THRESHOLD>
+        <AdaptiveEngine>0</AdaptiveEngine>
+        <PredictiveEngine>0</PredictiveEngine>
+        <ProactiveEngine>0</ProactiveEngine>
+    </Configs>
+    <Configs target="kera">
+        <STUTTER_SCALE>10</STUTTER_SCALE>
+        <THERMAL_MONITOR>1</THERMAL_MONITOR>
+        <THERMAL_MONITOR_RULES>GAME_OPT_TSENS_RULE1,GAME_OPT_TSENS_RULE2,GAME_OPT_TSENS_RULE3</THERMAL_MONITOR_RULES>
+        <!-- FPS threshold values in the order: Increase, Aggressive Increase, Decrease -->
+        <FPS_30_THRESHOLD>0.6, 1.0, 0.4</FPS_30_THRESHOLD>
+        <FPS_35_THRESHOLD>0.6, 1.0, 0.4</FPS_35_THRESHOLD>
+        <FPS_40_THRESHOLD>0.6, 1.0, 0.4</FPS_40_THRESHOLD>
+        <FPS_60_THRESHOLD>0.6, 1.0, 0.4</FPS_60_THRESHOLD>
+        <FPS_90_THRESHOLD>2.0, 5.0, 1.0</FPS_90_THRESHOLD>
+        <FPS_120_THRESHOLD>2.0, 5.0, 1.0</FPS_120_THRESHOLD>
+        <FPS_144_THRESHOLD>2.0, 5.0, 1.0</FPS_144_THRESHOLD>
+        <GROUP_UPMIGRATE_PATH>/proc/sys/walt/sched_group_upmigrate</GROUP_UPMIGRATE_PATH>
+        <GROUP_DOWNMIGRATE_PATH>/proc/sys/walt/sched_group_downmigrate</GROUP_DOWNMIGRATE_PATH>
+        <BIG_CLUSTER_ID>3,4,5,6,7</BIG_CLUSTER_ID>
+        <QSPM_EXCLUSIIVE>0</QSPM_EXCLUSIIVE>
+        <THERMAL_ATA_LEVEL_THRESHOLDS>-1, -1, -1</THERMAL_ATA_LEVEL_THRESHOLDS>
+        <THERMAL_ATA_SKIN_THRESHOLD>51</THERMAL_ATA_SKIN_THRESHOLD>
+        <AdaptiveEngine>0</AdaptiveEngine>
+        <PredictiveEngine>0</PredictiveEngine>
+        <ProactiveEngine>0</ProactiveEngine>
+    </Configs>
+
     <Profiles>
         <Profile>
             <!-- CORE_CTL_ENABLE_BIG, 0, CORE_CTL_ENABLE_PRIME, 0-->

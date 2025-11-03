@@ -1,7 +1,7 @@
 {
   "config": {
     "hw_platform": [ "MTP", "Dragon", "Surf", "HDK", "IDP", "QRD", "IOT", "RCM"],
-    "soc_id": ["557", "577", "618", "639"]
+    "soc_id": ["557", "577", "618", "639", "655", "681", "694", "659", "686"]
   },
   "sns_tilt": {
     "owner": "sns_tilt",

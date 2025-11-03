@@ -24,6 +24,13 @@ on boot
     chown system system  /mnt/vendor/persist/copy/bdwlan.elf
     chown system system  /mnt/vendor/persist/copy/peach/bdwlan.elf
     chown system system  /mnt/vendor/persist/copy/peach/bdwlang.elf
+
+    #add for SM8735 + WCN7750
+    mkdir /mnt/vendor/persist/copy/wcn7750 0770 system system
+    chown system system  /mnt/vendor/persist/copy/wcn7750/bdwlan.elf
+    #Add for SM7750 + qca6750
+    mkdir /mnt/vendor/persist/copy/qca6750 0770 system system
+    chown system system  /mnt/vendor/persist/copy/qca6750/bdwlan.elf
 #endif /* OPLUS_FEATURE_WIFI_BDF */
 
 #ifdef OPLUS_FEATURE_WIFI_BDF
@@ -87,6 +94,9 @@ service wifitestdiag /odm/bin/wifi_diag
 on property:sys.usb.config=diag,adb && property:sys.usb.configfs=1
     start wifitestdiag
 #endif /* OPLUS_FEATURE_WIFI_DIAG */
+
+on property:sys.boot_completed=1
+    setprop persist.vendor.oplus.first.boot "no"
 
 # ifdef OPLUS_FEATURE_WIFI_INI_ROMUPDATE
 # YangJiang@CONNECTIVITY.WIFI.NETWORK.2132185, 2021/09/13

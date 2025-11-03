@@ -1,7 +1,7 @@
 {
   "config": {
     "hw_platform": ["MTP", "QRD", "Dragon", "Surf", "HDK", "RCM"],
-    "soc_id": ["618", "639"]
+    "soc_id": ["618", "639", "655", "681", "694", "659", "686"]
   },
   "ccd_gmd_sensor0": {
     "owner": "sns_ccd",
@@ -84,7 +84,7 @@
     "stationary_state1_mask": { "ver": "0", "type": "int", "data": "0x0000000C" },
     "stationary_state1_value": { "ver": "0", "type": "int", "data": "0x00000004" },
     "secondary_amd": { "ver": "0", "type": "int", "data": "1" },
-    "batch_period": { "ver": "0", "type": "flt", "data": "0.00" },
+    "batch_period": { "ver": "0", "type": "flt", "data": "1.00" },
     "xmd_filter_settling_time_us": { "ver": "0", "type": "int", "data": "0" }
   },
   "ccd_cd0_sensor0": {

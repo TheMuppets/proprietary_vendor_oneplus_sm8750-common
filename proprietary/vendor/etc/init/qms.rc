@@ -13,6 +13,21 @@ on property:sys.boot_completed=1
     copy /vendor/etc/SDA_official_license.pfm /mnt/vendor/persist/data/pfm/licenses/SDA_official_license.pfm
     chmod 0644 /mnt/vendor/persist/data/pfm/licenses/SDA_official_license.pfm
     chown system system /mnt/vendor/persist/data/pfm/licenses/SDA_official_license.pfm
+    # YiYutian@NETWORK.DATA, 2025/02/24, Add trial SNS license for SM8735
+    copy /vendor/etc/SNS_trial_no_secure_license_for_SM8735.pfm /mnt/vendor/persist/data/pfm/licenses/SNS_trial_no_secure_license_for_SM8735.pfm
+    chmod 0644 /mnt/vendor/persist/data/pfm/licenses/SNS_trial_no_secure_license_for_SM8735.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/SNS_trial_no_secure_license_for_SM8735.pfm
+    # YiYutian@NETWORK.DATA, 2025/03/07, Add official SNS&SDA license for SM8735
+    copy /vendor/etc/SNS_official_license_for_SM8735.pfm /mnt/vendor/persist/data/pfm/licenses/SNS_official_license_for_SM8735.pfm
+    chmod 0644 /mnt/vendor/persist/data/pfm/licenses/SNS_official_license_for_SM8735.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/SNS_official_license_for_SM8735.pfm
+    copy /vendor/etc/SDA_official_license_for_SM8735.pfm /mnt/vendor/persist/data/pfm/licenses/SDA_official_license_for_SM8735.pfm
+    chmod 0644 /mnt/vendor/persist/data/pfm/licenses/SDA_official_license_for_SM8735.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/SDA_official_license_for_SM8735.pfm
+    # Liudonghua@NETWORK.DATA, 2025/04/30, Add official SNS license for SM7750
+    copy /vendor/etc/SNS_official_license_for_SM7750.pfm /mnt/vendor/persist/data/pfm/licenses/SNS_official_license_for_SM7750.pfm
+    chmod 0644 /mnt/vendor/persist/data/pfm/licenses/SNS_official_license_for_SM7750.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/SNS_official_license_for_SM7750.pfm
 
 service vendor.qms /vendor/bin/qms
      class main

@@ -64,7 +64,6 @@
              MinCoreOnline="0"
              CpufreqGov="1"
              TargetMaxArgsPerReq="64"
-             MPAMPrioAware="0"
         />
 
          <ClustersInfo Id="0" NumCores="6" Type="big" />
@@ -75,6 +74,63 @@
          <LogicalMPAMGroupInfo Id="2" Name="camera" Prio="2" />
          <LogicalMPAMGroupInfo Id="3" Name="game" Prio="3" />
 
+         <MPAMInfo NumOfCacheBlocks="2" CacheType="L2" MPAMPrioAware="0" />
+
     </Config1>
+
+    <Config2>
+
+         <TargetInfo
+             Target="tuna"
+             NumClusters="4"
+             TotalNumCores="8"
+             SocIds="694,681,655"
+             SynCore="1"
+             CoreCtlCpu="4"
+             MinCoreOnline="0"
+             CpufreqGov="1"
+             TargetMaxArgsPerReq="64"
+        />
+
+         <ClustersInfo Id="0" NumCores="2" Type="little" />
+         <ClustersInfo Id="1" NumCores="3" Type="big" />
+         <ClustersInfo Id="2" NumCores="2" Type="titanium" />
+         <ClustersInfo Id="3" NumCores="1" Type="prime" />
+
+         <LogicalMPAMGroupInfo Id="0" Name="default" Prio="0" />
+         <LogicalMPAMGroupInfo Id="1" Name="video" Prio="1" />
+         <LogicalMPAMGroupInfo Id="2" Name="camera" Prio="2" />
+         <LogicalMPAMGroupInfo Id="3" Name="game" Prio="3" />
+
+         <MPAMInfo NumOfCacheBlocks="1" CacheType="L3" MPAMPrioAware="0" />
+
+    </Config2>
+
+    <Config3>
+
+         <TargetInfo
+             Target="kera"
+             NumClusters="3"
+             TotalNumCores="8"
+             SocIds="659,686"
+             SynCore="1"
+             CoreCtlCpu="3"
+             MinCoreOnline="0"
+             CpufreqGov="1"
+             TargetMaxArgsPerReq="64"
+        />
+
+         <ClustersInfo Id="0" NumCores="3" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
+         <ClustersInfo Id="2" NumCores="1" Type="prime" />
+
+         <LogicalMPAMGroupInfo Id="0" Name="default" Prio="0" />
+         <LogicalMPAMGroupInfo Id="1" Name="video" Prio="1" />
+         <LogicalMPAMGroupInfo Id="2" Name="camera" Prio="2" />
+         <LogicalMPAMGroupInfo Id="3" Name="game" Prio="3" />
+
+         <MPAMInfo NumOfCacheBlocks="1" CacheType="L3" MPAMPrioAware="0" />
+
+    </Config3>
 
 </TargetConfig>

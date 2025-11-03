@@ -218,6 +218,8 @@ Cluster 2=> Prime
         <Minor OpcodeValue="0x1A" WVal="900000" RVal = "900000" />
         <Minor OpcodeValue="0x1B" WVal="80" RVal="80"  />
         <Minor OpcodeValue="0x1C" WVal="80" RVal = "80" />
+        <Minor OpcodeValue="0x1D" WVal="110" RVal="110"  />
+        <Minor OpcodeValue="0x1E" WVal="110" RVal = "110" />
     <!-- cpubw hwmon major end -->
 
     <!-- video major start -->
@@ -316,7 +318,10 @@ Cluster 2=> Prime
         <Minor OpcodeValue="0x10" WVal="0x1FEABF3" RVal="3196000" />  <!-- target -->
         <Minor OpcodeValue="0x11" WVal="" RVal="" />  <!-- not supported -->
         <Minor OpcodeValue="0x12" WVal="0x43" />
-
+        <Minor OpcodeValue="0x13" Exception="MultiValuedNode" />
+        <Minor OpcodeValue="0x14" Exception="MultiValuedNode" />
+        <Minor OpcodeValue="0x15" WVal="" RVal="" />   <!-- not supported -->
+        <Minor OpcodeValue="0x16" WVal="" RVal="" />   <!-- not supported -->
     <!-- llcbw hwmon major end -->
 
     <!-- memlat major start -->
@@ -394,6 +399,17 @@ Cluster 2=> Prime
         <Minor OpcodeValue="0xB" WVal="0" RVal="0" />
         <Minor OpcodeValue="0xC" WVal="0x10" RVal="4" />
         <Minor OpcodeValue="0xD" WVal="0" RVal="0" />
+        <Minor OpcodeValue="0x10" WVal="75" RVal="75" />
+        <Minor OpcodeValue="0x11" WVal="75" RVal="75" />
+        <Minor OpcodeValue="0x12" WVal="75" RVal="75" />
+        <Minor OpcodeValue="0x13" WVal="75" RVal="75" />
+        <Minor OpcodeValue="0x14" Exception="MultiValuedNode" />
+        <Minor OpcodeValue="0x15" WVal="10" RVal="10" />
+        <Minor OpcodeValue="0x16" WVal="" RVal="" />    <!-- not supported -->
+        <Minor OpcodeValue="0x18" WVal="1" RVal="1" />
+        <Minor OpcodeValue="0x19" Exception="MultiValuedNode" />
+        <Minor OpcodeValue="0x1B" WVal="1" RVal="1" />
+        <Minor OpcodeValue="0x1C" WVal="" RVal="" />    <!-- not supported -->
     <!-- sched2 major end -->
 
     <!-- upstream sched major start -->

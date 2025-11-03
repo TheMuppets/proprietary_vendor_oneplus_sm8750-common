@@ -1,21 +1,34 @@
 on post-fs-data
     mkdir /data/vendor/olog 0777 system root
 
-on property:ro.boot.hardware=qcom && property:persist.radio.multisim.config=dsds
+on property:ro.boot.hardware=qcom && property:vendor.oplus.radio.subsys_daemon.restart=1
     stop qti-modem-daemon-0
-    stop qti-modem-daemon-1
     start qti-modem-daemon-0
+
+on property:ro.boot.hardware=qcom && property:vendor.oplus.radio.subsys_daemon.restart=2
+    stop qti-modem-daemon-1
+    start qti-modem-daemon-1
+
+on property:ro.soc.manufacturer=Mediatek && property:vendor.oplus.radio.subsys_daemon.restart=1
+    stop mtk-modem-daemon-0
+    start mtk-modem-daemon-0
+
+on property:ro.boot.hardware=qcom && property:persist.radio.multisim.config=dsds && property:ro.carrier=unknown
+    stop qti-modem-daemon-1
+    start qti-modem-daemon-1
+
+on property:ro.boot.hardware=qcom && property:persist.radio.multisim.config=dsds && property:ro.carrier=""
+    stop qti-modem-daemon-1
     start qti-modem-daemon-1
 
 on property:ro.boot.hardware=qcom && property:persist.radio.multisim.config=dsda
-    stop qti-modem-daemon-0
     stop qti-modem-daemon-1
-    start qti-modem-daemon-0
     start qti-modem-daemon-1
 
 on property:ro.boot.hardware=qcom && property:persist.radio.multisim.config=ssss
-    stop qti-modem-daemon-0
     stop qti-modem-daemon-1
+
+on property:ro.boot.hardware=qcom
     start qti-modem-daemon-0
 
 on property:ro.soc.manufacturer=Mediatek

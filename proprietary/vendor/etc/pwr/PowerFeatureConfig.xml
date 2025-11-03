@@ -16,7 +16,7 @@
 <PowerFeature>
     <Feature>
         <Name>PSMPowerOptFeature</Name>
-        <Enable>0</Enable>
+        <Enable>1</Enable>
     </Feature>
     <Feature>
         <Name>VideoPowerOptFeature</Name>
@@ -28,6 +28,10 @@
     </Feature>
     <Feature>
         <Name>OffScreenPowerOptFeature</Name>
+        <Enable>1</Enable>
+    </Feature>
+    <Feature>
+        <Name>CameraPowerOptFeature</Name>
         <Enable>1</Enable>
     </Feature>
 </PowerFeature>

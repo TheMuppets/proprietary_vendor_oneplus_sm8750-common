@@ -9,4 +9,5 @@
     <item name="libnvram" path="/odm/lib64/libnvram.so" />
     <item name="libimsortcapis" path="/odm/lib64/libimsortcapis.so" />
     <item name="libttsatellite-rpc801" path="/odm/lib64/libttsatellite-rpc801.so" />
+    <item name="libiccapis" path="/odm/lib64/libiccapis.so" />
 </plugin_config>

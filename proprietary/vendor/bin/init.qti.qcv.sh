@@ -18,6 +18,21 @@ if [ "$soc_id" -eq 618 ] || [ "$soc_id" -eq 639 ]; then
     # Store chip_id in ro.vendor.qti.soc_model
     setprop ro.vendor.qti.soc_model $chip_id
     setprop ro.vendor.media_performance_class 35
+elif [ "$soc_id" -eq 655 ] || [ "$soc_id" -eq 681 ] || [ "$soc_id" -eq 694 ]; then
+    setprop ro.vendor.qti.soc_name tuna
+    setprop ro.vendor.qti.soc_model $chip_id
+    setprop ro.vendor.media_performance_class 35
+elif [ "$soc_id" -eq 659 ] || [ "$soc_id" -eq 686 ]; then
+    setprop ro.vendor.qti.soc_name kera
+    setprop ro.vendor.qti.soc_model $chip_id
+elif [ "$soc_id" -eq 507 ] || [ "$soc_id" -eq 565 ]; then
+    setprop ro.vendor.qti.soc_name blair
+elif [ "$soc_id" -eq 578 ]; then
+    setprop ro.vendor.qti.soc_name blair
+elif [ "$soc_id" -eq 454 ]; then
+    setprop ro.vendor.qti.soc_name holi
+elif [ "$soc_id" -eq 472 ]; then
+    setprop ro.vendor.qti.soc_name holi
 elif [ "$soc_id" -eq 557 ] || [ "$soc_id" -eq 577 ]; then
     setprop ro.vendor.qti.soc_name pineapple
     # Store chip_id in ro.vendor.qti.soc_model

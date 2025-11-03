@@ -44,15 +44,23 @@ case "$baseband" in
     "msm" | "csfb" | "svlte2a" | "mdm" | "mdm2" | "sglte" | "sglte2" | "dsda2" | "unknown" | "dsda3" | "sdm" | "sdx" | "sm6")
 
     # start qcrild only for targets on which modem is present
-    # modemvalue 0x0 indicates Modem online
-    # modemvalue 0x1 indicates Modem IP is not functional or disabled
-    # modemvalue 0x2 indicates Modem offline
+    # modemvalue "enabled" indicates Modem is enabled
+    # modemvalue "disabled" indicates Modem is not enabled
+    qspamodemvalue="enabled"
+    qspavalue=`getprop ro.boot.vendor.qspa`
     modemvalue="0x0"
-    if [ -f /sys/devices/soc0/modem ]; then
-        modemvalue=`cat /sys/devices/soc0/modem`
+    if [ "$qspavalue" = "true" ]; then
+        qspamodemvalue=`getprop ro.boot.vendor.qspa.modem`
+    else
+        if [ -f /sys/devices/soc0/modem ]; then
+            modemvalue=`cat /sys/devices/soc0/modem`
+        fi
+        if [ "$modemvalue" = "0x1" ] || [ "$modemvalue" = "0xff" ]; then
+            qspamodemvalue="disabled"
+        fi
     fi
 
-    if [ $modemvalue != "0x1" ] && [ $modemvalue != "0x2" ]; then
+    if [ "$qspamodemvalue" = "enabled" ]; then
         start vendor.qcrild
 
         multisim=`getprop persist.radio.multisim.config`

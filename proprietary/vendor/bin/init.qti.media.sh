@@ -34,6 +34,8 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #===============================================================================
 
+build_codename=`getprop vendor.media.system.build_codename`
+
 if [ -f /sys/devices/soc0/soc_id ]; then
     soc_hwid=`cat /sys/devices/soc0/soc_id` 2> /dev/null
 else
@@ -56,7 +58,49 @@ case "$target" in
         ;;
     "sun")
         setprop vendor.mm.target.enable.qcom_parser 0
-        setprop vendor.media.target_variant "_sun"
+        case "$soc_hwid" in
+            655|681|694)
+                setprop vendor.media.target_variant "_tuna_v0"
+                sku_ver=`cat /sys/devices/platform/soc/aa00000.qcom,vidc/sku_version` 2> /dev/null
+                #xuanli.wang@MULTIMEDIA.MEDIASERVER.PLAYER, 2025/04/30,
+                #add ro.netflix.bsp_rev to support Netflix Widevine L1 function.
+                if [ $sku_ver -eq 1 ]; then
+                    setprop vendor.media.target_variant "_tuna_v1"
+                fi
+                if [ $build_codename -le "15" ]; then
+                    setprop vendor.netflix.bsp_rev "SM8735-40387-1"
+                else
+                    setprop vendor.netflix.bsp_rev "SM8735-40387-1"
+                fi
+                #add ro.netflix.bsp_rev end
+                ;;
+            659|686)
+                setprop vendor.media.target_variant "_kera_v0"
+                #wenqiu.xiong@MULTIMEDIA.MEDIASERVER.PLAYER, 2025/05/21,
+                #add ro.netflix.bsp_rev to support Netflix Widevine L1 function;patch：59b2156.diff;caseID=07856297.
+                if [ $build_codename -le "15" ]; then
+                    setprop vendor.netflix.bsp_rev "Q7750-40388-1"
+                else
+                    setprop vendor.netflix.bsp_rev "Q7750-40388-1"
+                fi
+                #add ro.netflix.bsp_rev end
+                sku_ver=`cat /sys/devices/platform/soc/aa00000.qcom,vidc/sku_version` 2> /dev/null
+                if [ $sku_ver -eq 1 ]; then
+                    setprop vendor.media.target_variant "_kera_v1"
+                fi
+                ;;
+            *)
+            setprop vendor.media.target_variant "_sun"
+            if [ $build_codename -le "15" ]; then
+                setprop vendor.netflix.bsp_rev "Q8750-39568-1"
+            #xuanli.wang@MULTIMEDIA.MEDIASERVER.PLAYER, 2025/04/29,
+            #add ro.netflix.bsp_rev to support Netflix Widevine L1 function.
+            else
+                setprop vendor.netflix.bsp_rev "Q8750-39568-1"
+            #add ro.netflix.bsp_rev end
+            fi
+            ;;
+        esac
         ;;
     "taro")
         setprop vendor.mm.target.enable.qcom_parser 1040479

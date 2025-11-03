@@ -42,6 +42,14 @@ service oplus_diag_mdlog_start /system/vendor/bin/diag_mdlog -c -u -q 0x2006 -j 
     disabled
     oneshot
 
+#WuXiaoyu@Network.ARCH, 2025/7/17, Modify for modem log oempd qdss
+service oplus_diag_mdlog_start_oempd /system/vendor/bin/diag_mdlog -c -u -p 0x46 -q 0x12006 -o /data/vendor/oplus/log/device_log/diag_logs
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
 service oplus_diag_mdlog_stop /system/vendor/bin/diag_mdlog -k
     class late_start
     user system
@@ -49,7 +57,42 @@ service oplus_diag_mdlog_stop /system/vendor/bin/diag_mdlog -k
     disabled
     oneshot
 
+service oplus_diag_oempd_mdlog_stop /system/vendor/bin/diag_mdlog -c -u -p 0x47 -k
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
+service oplus_diag_charge_log_start /system/vendor/bin/diag_mdlog -p 0x10000 -f /vendor/odm/etc/charge.cfg -o /data/vendor/oplus/log/device_log/diag_logs/charger -s 128 -n 2 -u
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
+service oplus_diag_charge_log_stop /system/vendor/bin/diag_mdlog -c -u -p 0x10000 -k
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
 service oplus_diag_mdlog_nrt /system/vendor/bin/diag_mdlog -c -b -u -o /data/vendor/oplus/log/device_log/diag_logs
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
+service oplus_diag_mdlog_buffer_start /system/vendor/bin/diag_mdlog -c -u -p 2 -x 0x10002 -t 2 -f /vendor/odm/etc/modem_buffer.cfg -o /data/vendor/oplus/log/device_log/mdbuffer_logs
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
+service oplus_diag_mdlog_buffer_stop /system/vendor/bin/diag_mdlog -c -u -p 2 -x 0x10002 -t 2 /vendor/odm/etc/modem_buffer.cfg -k
     class late_start
     user system
     group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
@@ -105,6 +148,11 @@ on boot
     chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oem_TDD-BYPASS_platfrom_license.pfm
     chown system system /mnt/vendor/persist/data/pfm/licenses/oem_TDD-BYPASS_platfrom_license.pfm
 
+on boot
+    copy /odm/etc/oem_TDD-BYPASS_platfrom_trail_license.pfm /mnt/vendor/persist/data/pfm/licenses/oem_TDD-BYPASS_platfrom_trail_license.pfm
+    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oem_TDD-BYPASS_platfrom_trail_license.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/oem_TDD-BYPASS_platfrom_trail_license.pfm
+
 on property:sys.boot_completed=1 && property:persist.vendor.oplus.tddsawless.licenses=1
     copy /vendor/etc/O_TDD-Bypass_platform_license.pfm /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_platform_license.pfm
     chmod 0600 /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_platform_license.pfm
@@ -112,4 +160,24 @@ on property:sys.boot_completed=1 && property:persist.vendor.oplus.tddsawless.lic
     copy /vendor/etc/O_TDD-Bypass_SM7675_platform_license.pfm /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_SM7675_platform_license.pfm
     chmod 0600 /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_SM7675_platform_license.pfm
     chown system system /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_SM7675_platform_license.pfm
+
+on property:sys.boot_completed=1
+    copy /odm/etc/oem_qpm8590_qeb_platform_trail_license.pfm /mnt/vendor/persist/data/pfm/licenses/oem_qpm8590_qeb_platform_trail_license.pfm
+    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oem_qpm8590_qeb_platform_trail_license.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/oem_qpm8590_qeb_platform_trail_license.pfm
+
+on property:sys.boot_completed=1
+    copy /odm/etc/oem_qpm8590_qeb_platform_license.pfm /mnt/vendor/persist/data/pfm/licenses/oem_qpm8590_qeb_platform_license.pfm
+    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oem_qpm8590_qeb_platform_license.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/oem_qpm8590_qeb_platform_license.pfm
+
 #endif /*OPLUS_FEATURE_RF_LICENSES*/
+
+#ifdef OPLUS_FEATURE_ODM_RF_ICC
+# Huo.Chen@SYSTEM.RF, 2024/09/06, Add for ICC
+on boot && property:persist.vendor.oplus.icc.module.enable=1
+    chmod 0660 /dev/iccmcu_dev
+    chown system system /dev/iccmcu_dev
+    chmod 0660 /dev/ttyHS5
+    chown system system /dev/ttyHS5
+ #endif /* OPLUS_FEATURE_ODM_RF_ICC */

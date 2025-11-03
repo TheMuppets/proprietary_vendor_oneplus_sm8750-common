@@ -46,7 +46,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
       <ProcessingOrder>3</ProcessingOrder>
     </Library>
     <Library>
-      <Name>libdisplaysharpness.so</Name>
+      <Name>libclstc_color_feature.so</Name>
       <ProcessingOrder>4</ProcessingOrder>
     </Library>
 </StcLibraries>

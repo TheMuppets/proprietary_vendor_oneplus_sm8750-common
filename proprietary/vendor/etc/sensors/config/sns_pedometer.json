@@ -1,7 +1,7 @@
 {
   "config": {
     "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK", "IDP", "IOT", "RCM"],
-    "soc_id": ["557", "577", "618", "639"]
+    "soc_id": ["557", "577", "618", "639", "655", "681", "694", "659", "686"]
   },
   "sns_pedometer": {
     "owner": "sns_pedometer",

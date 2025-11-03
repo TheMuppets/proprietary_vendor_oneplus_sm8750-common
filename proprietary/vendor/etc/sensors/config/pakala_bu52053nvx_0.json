@@ -59,7 +59,7 @@
         "data": "2"
       },
       "num_rail":{ "type": "int", "ver": "0",
-        "data": "1"
+        "data": "0"
       },
       "vddio_rail":{ "type": "str", "ver": "0",
         "data": "/pmic/client/sensor_vddio"

@@ -1,7 +1,7 @@
 {
   "config": {
     "hw_platform": ["MTP", "QRD", "Dragon", "Surf", "HDK", "RCM"],
-    "soc_id": ["557", "577", "618", "639"]
+    "soc_id": ["557", "577", "618", "639", "655", "681", "694", "659", "686"]
   },
   "ccd_v51_te0": {
     "owner": "sns_ccd",

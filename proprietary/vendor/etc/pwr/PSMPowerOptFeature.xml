@@ -17,7 +17,15 @@
     <Name>PSMPowerOptFeature</Name>
     <Libname>libpsmoptfeature.so</Libname>
     <Configs>
-        <PSM>1</PSM>
+        <PSM_STATE>2</PSM_STATE>
+        <GPUMode>1</GPUMode>
+        <GAME_TIMER>500</GAME_TIMER>
+        <GPU_SAMPLE_COUNT>10</GPU_SAMPLE_COUNT>
+        <STABILITY_SAMPLE_COUNT>5</STABILITY_SAMPLE_COUNT>
+        <GPU_BUSY_STABILITY_THRESHOLD>10</GPU_BUSY_STABILITY_THRESHOLD>
+        <GPU_Freq_THRESHOLD_LOW>342</GPU_Freq_THRESHOLD_LOW>
+        <GPU_Freq_THRESHOLD_HIGH>1050</GPU_Freq_THRESHOLD_HIGH>
+        <DEEP_MODE>0</DEEP_MODE>
         <CPUNODE>/sys/devices/system/cpu/cpu7/online</CPUNODE>
         <CPUPOLICY>/sys/devices/system/cpu/cpufreq/policy7</CPUPOLICY>
         <Display>vendor.display.use_smooth_motion, 0</Display>
@@ -33,6 +41,10 @@
     </Configs>
     <Profiles>
         <Profile>
+            <!--mincap/numbusy/penalty -->
+            <DYN_GPU_LEVEL0>0X42838000, 0, 0X4283c000, 0, 0X42840000, 0</DYN_GPU_LEVEL0>
+            <DYN_GPU_LEVEL1>0X42838000, 3, 0X4283c000, 2, 0X42840000, 0</DYN_GPU_LEVEL1>
+            <DYN_GPU_LEVEL2>0X42838000, 0, 0X4283c000, 0, 0X42840000, 0</DYN_GPU_LEVEL2>
         <!-- config_enableDefault -->
             <!-- MPCTLV3_SCHED_LOAD_BOOST_LITTLE -->
             <!-- MPCTLV3_SCHED_LOAD_BOOST_BIG -->

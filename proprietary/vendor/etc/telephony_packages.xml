@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!--
-    Copyright (c) 2021 Qualcomm Technologies, Inc.
-    All Rights Reserved.
+    Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+    All rights reserved.
     Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
 <!--
@@ -13,6 +13,9 @@
     Each <packageinfo> tag corresponds to one app and has the following attributes:
 
     1. name: The package name as defined in the app's AndroidManifest.xml.
+             For duplicate entry of package name, add version number at the end.
+             e.g., com.qti.phone , com.qti.phone.2
+
 
     2. path: The app's location on the file system.
              a. For apps that have their own directory, e.g., /product/priv-app/Dialer/Dialer.apk,
@@ -38,7 +41,7 @@
     <packageinfo name="com.android.stk" path="/system/app/Stk" />
     <packageinfo name="com.qti.confuridialer" path="/product/app/ConfURIDialer" />
     <packageinfo name="com.qti.phone" path="/system_ext/priv-app/QtiTelephony" />
-    <packageinfo name="com.qti.telephonysettings" path="/product/app/QtiTelephonySettings" />
+    <packageinfo name="com.qti.telephonysettings" path="/system_ext/app/QtiTelephonySettings" />
     <packageinfo name="com.qti.qualcomm.carriertest" path="/system_ext/app/CarrierTest" />
     <packageinfo name="com.qti.qualcomm.datastatusnotification" path="/product/app/datastatusnotification" />
     <packageinfo name="com.qti.qualcomm.deviceinfo" path="/system_ext/app/DeviceInfo" />
