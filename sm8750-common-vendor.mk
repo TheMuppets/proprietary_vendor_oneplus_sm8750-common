@@ -757,7 +757,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cwb-V1-ndk \
     vendor.oplus.hardware.cwb@1.0 \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk_vendor \
-    vendor.oplus.hardware.displaypanelfeature-V1-ndk_vendor \
     vendor.oplus.hardware.olc2-V2-ndk_vendor \
     vendor.oplus.hardware.stability.oplus_project-V1-ndk \
     vendor.qti.data.factoryservice-V1-ndk \
@@ -853,8 +852,6 @@ PRODUCT_PACKAGES += \
     libwfduibcsinkinterface \
     libwfduibcsrc \
     libwfduibcsrcinterface \
-    vendor.oplus.hardware.displaypanelfeature-V1-ndk \
-    vendor.oplus.hardware.displaypanelfeature@1.0 \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.dpmaidlservice-V1-ndk \
     vendor.qti.hardware.dpmservice@1.0 \
@@ -904,7 +901,6 @@ PRODUCT_PACKAGES += \
     libtfa98xx \
     libuahcore \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk \
-    vendor.oplus.hardware.displaypanelfeature-V1-ndk_odm \
     vendor.oplus.hardware.olc2-V1-ndk \
     vendor.oplus.hardware.olc2-V2-ndk \
     vendor.oplus.hardware.stability.oplus_project-V2-ndk \
