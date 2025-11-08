@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/audio_algos_ver/OPVE_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPVE_Version.txt \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/charge.cfg:$(TARGET_COPY_OUT_ODM)/etc/charge.cfg \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/display/cwb_weightspos.json:$(TARGET_COPY_OUT_ODM)/etc/display/cwb_weightspos.json \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/displaycolorfeaturecfg.xml:$(TARGET_COPY_OUT_ODM)/etc/displaycolorfeaturecfg.xml \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/hw/init.oplus.wifi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.wifi.rc \
@@ -756,7 +755,6 @@ PRODUCT_PACKAGES += \
     vendor.libmwqemiptablemgr \
     vendor.oplus.hardware.cwb-V1-ndk \
     vendor.oplus.hardware.cwb@1.0 \
-    vendor.oplus.hardware.displaycolorfeature-V1-ndk_vendor \
     vendor.oplus.hardware.olc2-V2-ndk_vendor \
     vendor.oplus.hardware.stability.oplus_project-V1-ndk \
     vendor.qti.data.factoryservice-V1-ndk \
@@ -882,8 +880,6 @@ PRODUCT_PACKAGES += \
     libaiboost_te \
     libaiboost_ubwc \
     libc2filterplugin \
-    libclstc_color_feature \
-    libdisplayfossfeature_nature \
     libdolbyclstc \
     libdolbydecoderprocessor \
     libdolbyeglcore \
@@ -900,7 +896,6 @@ PRODUCT_PACKAGES += \
     libtensorflowlite_oplus \
     libtfa98xx \
     libuahcore \
-    vendor.oplus.hardware.displaycolorfeature-V1-ndk \
     vendor.oplus.hardware.olc2-V1-ndk \
     vendor.oplus.hardware.olc2-V2-ndk \
     vendor.oplus.hardware.stability.oplus_project-V2-ndk \
@@ -966,7 +961,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccvndhal_aidl-service.xml \
     vendor.qti.qspmhal-service.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
-    manifest_displaycolorfeature_aidl.xml \
     manifest_oplus_charger_aidl.xml \
     manifest_oplus_cwb_aidl.xml \
     manifest_oplus_displaypanelfeature_aidl.xml \

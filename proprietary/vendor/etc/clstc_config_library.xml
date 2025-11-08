@@ -57,12 +57,4 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <enable>1</enable>
     </library>
 
-        <!-- #ifdef OPLUS_FEATURE_DSIPLAY -->
-    <library>
-        <name>libclstc_color_feature.so</name>
-        <priority>3</priority>
-        <enable>1</enable>
-    </library>
-    <!-- #endif /*OPLUS_FEATURE_DSIPLAY*/ -->
-
 </clstc_libs>
