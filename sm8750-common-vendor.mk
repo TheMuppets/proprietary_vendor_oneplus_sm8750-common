@@ -475,6 +475,7 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libfeutils \
     libgame_enhance \
+    libgamepoweroptfeature \
     libgpt \
     libgpudataproducer \
     libgsl \
@@ -542,6 +543,7 @@ PRODUCT_PACKAGES += \
     libnspsuperresolutionserviceextension \
     libnsptransaction \
     liboemcrypto \
+    liboffscreenpoweroptfeature \
     libolc_vnd_vendor \
     libops \
     libos \
