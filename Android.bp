@@ -16180,6 +16180,39 @@ prebuilt_etc_xml {
 }
 
 cc_prebuilt_binary {
+    name: "KmInstallKeybox",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/KmInstallKeybox",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libcrypto",
+                "libkeymasterprovision",
+                "libqmi_cci",
+                "libqmi_common_so",
+                "libkeymasterutils",
+                "libkeymasterdeviceutils",
+                "libqtikeymaster4",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "adpl",
     owner: "oneplus",
     target: {
