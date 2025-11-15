@@ -758,7 +758,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cwb-V1-ndk \
     vendor.oplus.hardware.cwb@1.0 \
     vendor.oplus.hardware.olc2-V2-ndk_vendor \
-    vendor.oplus.hardware.stability.oplus_project-V1-ndk \
     vendor.qti.data.factoryservice-V1-ndk \
     vendor.qti.data.mwqemaidlservice-V1-ndk \
     vendor.qti.diaghal-V1-ndk_vendor \
@@ -900,7 +899,6 @@ PRODUCT_PACKAGES += \
     libuahcore \
     vendor.oplus.hardware.olc2-V1-ndk \
     vendor.oplus.hardware.olc2-V2-ndk \
-    vendor.oplus.hardware.stability.oplus_project-V2-ndk \
     libQnnHtpV79Skel.aiboost \
     libaiboostubwc_skel \
     capi_v3_oprec \
