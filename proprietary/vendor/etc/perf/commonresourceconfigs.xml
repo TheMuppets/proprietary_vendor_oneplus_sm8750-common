@@ -277,6 +277,7 @@ need to be added just before the end of it's major group. -->
         <Minor OpcodeValue="0x13" Node="/sys/devices/platform/soc/1d84000.ufshc/qcom/boost_monitor_timer_ms" />
         <Minor OpcodeValue="0x14" Node="/sys/devices/platform/soc/1d84000.ufshc/qcom/boost_min_threshold" />
         <Minor OpcodeValue="0x15" Node="/sys/devices/platform/soc/1d84000.ufshc/qcom/boost_max_threshold" />
+        <Minor OpcodeValue="0x18" Node="/proc/sys/walt/sched_frame_rate" />
     <!-- misc major end -->
 
     <!-- llcbw hwmon major start -->

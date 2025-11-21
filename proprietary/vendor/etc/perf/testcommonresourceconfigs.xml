@@ -290,6 +290,7 @@ Cluster 2=> Prime
         <Minor OpcodeValue="0x10" WVal="0x1" RVal="1" />
         <Minor OpcodeValue="0x11" WVal="200" RVal="200" />
         <Minor OpcodeValue="0x12" WVal="" RVal="" />   <!-- not supported -->
+        <Minor OpcodeValue="0x18" WVal="144" RVal="144" />
     <!-- misc major end -->
 
     <!-- llcbw hwmon major start -->
