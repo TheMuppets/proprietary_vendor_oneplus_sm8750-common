@@ -604,7 +604,7 @@ PRODUCT_PACKAGES += \
     libstreamparser \
     libsynx \
     libtaautoload \
-    libtensorflowlite_c \
+    libtensorflowlite_c_vendor \
     libtestutils \
     libthermalclient \
     libthreadutils \

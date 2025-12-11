@@ -1597,7 +1597,7 @@ cc_prebuilt_library_shared {
                 "libEGL",
                 "libGLESv2",
                 "libGLESv3",
-                "libtensorflowlite_c",
+                "libtensorflowlite_c_vendor",
                 "libm",
                 "libc",
             ],
@@ -2397,7 +2397,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libVoiceSdk",
-                "libtensorflowlite_c",
+                "libtensorflowlite_c_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -3758,7 +3758,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libVoiceSdk",
-                "libtensorflowlite_c",
+                "libtensorflowlite_c_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -8723,7 +8723,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libtensorflowlite_c",
+    name: "libtensorflowlite_c_vendor",
     owner: "oneplus",
     strip: {
         none: true,
@@ -8731,7 +8731,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libtensorflowlite_c.so",
+                "proprietary/vendor/lib64/libtensorflowlite_c_vendor.so",
             ],
             shared_libs: [
                 "libm",
