@@ -724,14 +724,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal-impl \
     vendor.qti.snapdragonServices-V1-ndk \
     vendor.qti.snapdragonServices.qape-V1-ndk \
-    chre_qsh_shim \
-    libadsp_jpege_skel \
-    libdsp_streamer_binning \
-    libhme_dsp_skel \
-    libmctfengine_skel \
-    libmlawbpostproc_dsp_skel \
-    nearby.napp_header \
-    nearby \
+    vendor_lib_rfsa_adsp_chre_qsh_shim_so \
+    vendor_lib_rfsa_adsp_libadsp_jpege_skel_so \
+    vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
+    vendor_lib_rfsa_adsp_libhme_dsp_skel_so \
+    vendor_lib_rfsa_adsp_libmctfengine_skel_so \
+    vendor_lib_rfsa_adsp_libmlawbpostproc_dsp_skel_so \
+    vendor_lib_rfsa_adsp_nearby_napp_header \
+    vendor_lib_rfsa_adsp_nearby_so \
     libdiag_system \
     libdiagatbparser_system \
     libmmosal \
@@ -812,19 +812,19 @@ PRODUCT_PACKAGES += \
     libqcodec2_dolbyencoderfilter \
     libtensorflowlite_oplus \
     libtfa98xx \
-    libQnnHtpV79Skel.aiboost \
-    libaiboostubwc_skel \
-    capi_v3_oprec \
-    libCalculator_skel \
-    libQnnHtpV79 \
-    libQnnHtpV79Skel \
-    libQnnSaver \
-    libSuperRawPost_skel \
-    libarc_gk_pt_hvx_skel \
-    libarc_htp_driver_skel \
-    libhvxFaceBeautyPre_skel \
-    libktveffect \
-    nlc_bgth_v1_5 \
+    odm_lib_rfsa_adsp_aiboost_signed_libQnnHtpV79Skel_so \
+    odm_lib_rfsa_adsp_aiboost_signed_libaiboostubwc_skel_so \
+    odm_lib_rfsa_adsp_capi_v3_oprec_so \
+    odm_lib_rfsa_adsp_libCalculator_skel_so \
+    odm_lib_rfsa_adsp_libQnnHtpV79_so \
+    odm_lib_rfsa_adsp_libQnnHtpV79Skel_so \
+    odm_lib_rfsa_adsp_libQnnSaver_so \
+    odm_lib_rfsa_adsp_libSuperRawPost_skel_so \
+    odm_lib_rfsa_adsp_libarc_gk_pt_hvx_skel_so \
+    odm_lib_rfsa_adsp_libarc_htp_driver_skel_so \
+    odm_lib_rfsa_adsp_libhvxFaceBeautyPre_skel_so \
+    odm_lib_rfsa_adsp_libktveffect_so \
+    odm_lib_rfsa_adsp_nlc_bgth_v1_5_so \
     com.google.android.widevine.nonupdatable \
     TimeService \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
