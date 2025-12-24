@@ -684,7 +684,7 @@ PRODUCT_PACKAGES += \
     libreverbaidl \
     libvisualizeraidl \
     libvolumelistener \
-    vendor.oplus.hardware.cwb-V1-ndk \
+    vendor.oplus.hardware.cwb-V2-ndk \
     vendor.oplus.hardware.cwb@1.0 \
     vendor.qti.diaghal-V1-ndk_vendor \
     vendor.qti.hardware.ListenSoundModelAidl-V1-ndk \
