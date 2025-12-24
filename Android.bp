@@ -2653,7 +2653,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "android.hardware.graphics.composer3-V3-ndk",
-                "vendor.oplus.hardware.cwb-V1-ndk",
+                "vendor.oplus.hardware.cwb-V2-ndk",
                 "vendor.qti.hardware.display.config-V12-ndk",
                 "vendor.qti.hardware.display.allocator@4.0",
                 "vendor.qti.hardware.display.mapper@4.0",
@@ -10730,7 +10730,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.cwb-V1-ndk",
+    name: "vendor.oplus.hardware.cwb-V2-ndk",
     owner: "oneplus",
     strip: {
         none: true,
@@ -10738,7 +10738,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/vendor.oplus.hardware.cwb-V1-ndk.so",
+                "proprietary/vendor/lib64/vendor.oplus.hardware.cwb-V2-ndk.so",
             ],
             shared_libs: [
                 "libbinder_ndk",
@@ -16984,7 +16984,7 @@ cc_prebuilt_binary {
                 "proprietary/odm/bin/hw/vendor.oplus.hardware.displaypanelfeature-service",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.cwb-V1-ndk",
+                "vendor.oplus.hardware.cwb-V2-ndk",
                 "libqservice",
                 "vendor.qti.hardware.display.postproc-V1-ndk",
                 "libdpaservice",
