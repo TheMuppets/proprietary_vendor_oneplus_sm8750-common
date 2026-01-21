@@ -16,6 +16,10 @@ on property:sys.boot_completed=1
     copy /vendor/etc/SDS_trial_license_SM8735.pfm /mnt/vendor/persist/data/pfm/licenses/SDS_trial_license_SM8735.pfm
     chmod 0644 /mnt/vendor/persist/data/pfm/licenses/SDS_trial_license_SM8735.pfm
     chown system system /mnt/vendor/persist/data/pfm/licenses/SDS_trial_license_SM8735.pfm
+    # LiDonghong@NETWORK.CALL.10350874, 2025/11/14, Add trial SDS license for SM7750
+    copy /vendor/etc/SDS_trial_license_SM7750.pfm /mnt/vendor/persist/data/pfm/licenses/SDS_trial_license_SM7750.pfm
+    chmod 0644 /mnt/vendor/persist/data/pfm/licenses/SDS_trial_license_SM7750.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/SDS_trial_license_SM7750.pfm
 
 service vendor.ims_rtp_daemon /vendor/bin/ims_rtp_daemon
     class main

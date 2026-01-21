@@ -92,13 +92,26 @@ service oplus_diag_mdlog_buffer_start /system/vendor/bin/diag_mdlog -c -u -p 2 -
     disabled
     oneshot
 
-service oplus_diag_mdlog_buffer_stop /system/vendor/bin/diag_mdlog -c -u -p 2 -x 0x10002 -t 2 /vendor/odm/etc/modem_buffer.cfg -k
+service oplus_diag_mdlog_buffer_stop /system/vendor/bin/diag_mdlog -c -u -p 2 -x 0x10002 -t 2  -f /vendor/odm/etc/modem_buffer.cfg -k
     class late_start
     user system
     group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
     disabled
     oneshot
 
+service oplus_diag_mdlog_buffer_qdss_start /system/vendor/bin/diag_mdlog -c -u -p 2 -q 2 -x 0x10002 -t 2 -s 400 -f /vendor/odm/etc/modem_buffer.cfg -o /data/vendor/oplus/log/device_log/mdbuffer_logs
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
+service oplus_diag_mdlog_buffer_qdss_stop /system/vendor/bin/diag_mdlog -c -u -p 2 -q 2 -x 0x10002 -t 2 -s 400 -f /vendor/odm/etc/modem_buffer.cfg -k
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
 
 #ifdef OPLUS_FEATURE_MODEM_MINIDUMP
 on boot

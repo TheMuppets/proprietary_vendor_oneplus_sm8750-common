@@ -515,7 +515,7 @@
         <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS TITANIUM -->
         <!-- Type 1 Heavy Scrolls : Horizontal and Verical -->
         <Config
-            Id="0x00001080" Type="1" Enable="true" Target="tuna"
+            Id="0x00001080" Type="1" Enable="false" Target="tuna"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1708000, 0x40808000, 1286000, 0x40814000, 787000,
                        0x4080C200, 1094400, 0x40808200, 960000, 0x40814200, 787200,
                        0x40C00000, 2, 0x41000000, 3, 0x43480000, 0xC9900,
@@ -523,7 +523,7 @@
                        0x41848000, 0xE3C88, 0x42C20000, 1" />
 
         <Config
-            Id="0x00001080" Type="1" Enable="true" Target="tuna" Fps="120, 144, 180, 240"
+            Id="0x00001080" Type="1" Enable="false" Target="tuna" Fps="120, 144, 180, 240"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1824000, 0x40808000, 1497000, 0x40814000, 787000,
                        0x4080C200, 1363200, 0x40808200, 1094400, 0x40814200, 787200,
                        0x40C00000, 2, 0x41000000, 3, 0x43480000, 0xAAE60,
@@ -593,13 +593,13 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <!-- Type 2 Medium Scrolls : Horizontal and Verical -->
         <Config
-            Id="0x00001080" Type="2" Enable="true" Target="tuna"
+            Id="0x00001080" Type="2" Enable="false" Target="tuna"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1497000, 0x40808000, 119000, 0x40814000, 633000,
                        0x40C00000, 2, 0x41000000, 3, 0x43480000, 0xC9900,
                        0x40C74000, 0xFC, 0x40408000, 0x27, 0x41008000, 0, 0x41848000, 0xE3C88" />
 
         <Config
-            Id="0x00001080" Type="2" Enable="true" Target="tuna" Fps="120, 144, 180, 240"
+            Id="0x00001080" Type="2" Enable="false" Target="tuna" Fps="120, 144, 180, 240"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1593000, 0x40808000, 1286000, 0x40814000, 787000,
                        0x40C00000, 2, 0x41000000, 3, 0x43480000, 0xC9900,
                        0x40C74000, 0xFC, 0x40408000, 0x27, 0x41008000, 0, 0x41848000, 0xE3C88" />
@@ -646,11 +646,11 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <!-- Type 3 Light Scrolls : Horizontal and Verical -->
         <Config
-            Id="0x00001080" Type="3" Enable="true" Target="tuna"
+            Id="0x00001080" Type="3" Enable="false" Target="tuna"
             Resources="0x40C00000, 2, 0x4080C000, 1056000, 0x40808000, 787000, 0x40814000, 633000,
                        0x41848000, 0xE3C88" />
         <Config
-            Id="0x00001080" Type="3" Enable="true" Target="tuna" Fps="120, 144, 180, 240"
+            Id="0x00001080" Type="3" Enable="false" Target="tuna" Fps="120, 144, 180, 240"
             Resources="0x40C00000, 2, 0x4080C000, 1190000, 0x40808000, 940000, 0x40814000, 787000,
                        0x41848000, 0xE3C88" />
 
@@ -974,7 +974,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <!-- Type 1 Heavy Drags -->
         <Config
-             Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="tuna"
+             Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="tuna"
              Resources="0x4080C000, 1401000, 0x4080C100, 1228000, 0x4080C200, 787000,
                         0x40808000, 1286000, 0x40808100, 979000, 0x40808200, 787000,
                         0x40814000, 1190000, 0x40814100, 902000, 0x40814200, 633000,
@@ -997,7 +997,7 @@
         <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS TITANIUM -->
         <!-- Type 1 Heavy Drags -->
         <Config
-             Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="tuna" Fps="120, 144, 180, 240"
+             Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="tuna" Fps="120, 144, 180, 240"
              Resources="0x4080C000, 1920000, 0x4080C100, 1478000, 0x4080C200, 787000,
                         0x40808000, 1708000, 0x40808100, 1286000, 0x40808200, 787000,
                         0x40814000, 1497000, 0x40814100, 1017000, 0x40814200, 633000,
@@ -1056,12 +1056,12 @@
         <!-- WALT_ADAPTIVE_LEVEL_1_FREQ_PRIME resource opcode, value -->
         <!-- Type 2 Medium Drags: -->
         <Config
-            Id="0x00001087" Type="2" Enable="true" Timeout="0" Target="tuna"
+            Id="0x00001087" Type="2" Enable="false" Timeout="0" Target="tuna"
             Resources="0x40C00000, 2, 0x4080C000, 1056000, 0x4080C100, 902000, 0x4080C200, 787000,
                        0x40808000, 787000, 0x40808100, 883000, 0x40808200, 787000,
                        0x40814000, 633000, 0x40814100, 787000, 0x40814200, 633000" />
         <Config
-            Id="0x00001087" Type="2" Enable="true" Timeout="0" Target="tuna" Fps="120, 144, 180, 240"
+            Id="0x00001087" Type="2" Enable="false" Timeout="0" Target="tuna" Fps="120, 144, 180, 240"
             Resources="0x40C00000, 2, 0x4080C000, 1190000, 0x4080C100, 902000, 0x4080C200, 787000,
                        0x40808000, 1056000, 0x40808100, 883000, 0x40808200, 787000,
                        0x40814000, 940000, 0x40814100, 787000, 0x40814200, 633000" />
@@ -1094,7 +1094,7 @@
         <!-- MPCTLV3_SCHED_BOOST, value -->
         <!-- Type 3 Light Drags: -->
         <Config
-            Id="0x00001087" Type="3" Enable="true" Timeout="0" Target="tuna"
+            Id="0x00001087" Type="3" Enable="false" Timeout="0" Target="tuna"
             Resources="0x40C78000, 0, 0x40C7C000, 0, 0x40C00000, 2" />
 
         <!-- MPCTLV3_SCHED_MIN_TASK_UTIL_FOR_COLOCATION, value -->
