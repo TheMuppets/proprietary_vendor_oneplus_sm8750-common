@@ -3472,6 +3472,10 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libqservice",
                 "vendor.qti.hardware.display.postproc-V1-ndk",
+                "libcwb_qcom_aidl",
+                "libdisplayconfig.qti",
+                "vendor.qti.hardware.display.config-V12-ndk",
+                "libui",
                 "libhidlbase",
                 "libhidltransport",
                 "libhwbinder",
@@ -16936,12 +16940,12 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "vendor.oplus.hardware.charger-V9-service",
+    name: "vendor.oplus.hardware.charger-V10-service",
     owner: "oneplus",
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/odm/bin/hw/vendor.oplus.hardware.charger-V9-service",
+                "proprietary/odm/bin/hw/vendor.oplus.hardware.charger-V10-service",
             ],
             shared_libs: [
                 "libcutils",
@@ -16955,7 +16959,7 @@ cc_prebuilt_binary {
                 "android.hardware.sensors@1.0",
                 "libsensorndkbridge",
                 "libm",
-                "vendor.oplus.hardware.charger-V9-ndk",
+                "vendor.oplus.hardware.charger-V10-ndk",
                 "vendor.oplus.hardware.osense.client-V1-ndk",
                 "libosenseaidlhalclient",
                 "libjsoncpp",
