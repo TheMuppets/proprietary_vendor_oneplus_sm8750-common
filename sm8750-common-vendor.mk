@@ -779,6 +779,7 @@ PRODUCT_PACKAGES += \
     libQnnHtpV79Stub \
     libQnnSaver \
     libQnnSystem \
+    libSchedAssistExtImpl_vendor \
     libaiboost \
     libaiboost_llm \
     libaiboost_qnn_external_delegate_te \
