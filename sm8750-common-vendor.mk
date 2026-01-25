@@ -672,17 +672,7 @@ PRODUCT_PACKAGES += \
     libvpp_svc_skel \
     libvpp_vqa_networks \
     libworker_pool \
-    libbundleaidl \
-    libdownmixaidl \
-    libdynamicsprocessingaidl \
-    libloudnessenhanceraidl \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
     libquasar \
-    libreverbaidl \
-    libvisualizeraidl \
-    libvolumelistener \
     vendor.oplus.hardware.cwb-V2-ndk \
     vendor.oplus.hardware.cwb@1.0 \
     vendor.qti.diaghal-V1-ndk_vendor \
