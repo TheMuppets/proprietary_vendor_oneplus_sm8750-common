@@ -1351,7 +1351,7 @@ PRODUCT_PACKAGES += \
     libvasapi \
     vendor.oplus.hardware.communicationcenter-V2-ndk \
     vendor.oplus.hardware.subsys-V5-ndk \
-    vendor.oplus.hardware.subsys_radio-V8-ndk \
+    vendor.oplus.hardware.subsys_radio-V9-ndk \
     CACertService \
     CneApp \
     IWlanService \

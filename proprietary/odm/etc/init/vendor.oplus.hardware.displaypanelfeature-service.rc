@@ -15,6 +15,7 @@ on early-boot
     chown system system /sys/kernel/oplus_display/vsync_switch
     chown system system /sys/kernel/oplus_display/adfr_debug
     chown system system /sys/kernel/oplus_display/oplus_brightness
+    chown system system /sys/kernel/oplus_display/oplus_brightness2
     chown system system /sys/kernel/oplus_display/oplus_max_brightness
     chown root root /sys/kernel/oplus_display/panel_id
     chown root root /sys/kernel/oplus_display/panel_serial_number
