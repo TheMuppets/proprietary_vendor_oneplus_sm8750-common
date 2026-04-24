@@ -26261,3 +26261,24 @@ install_symlink {
     installed_location: "priv-app/ims/lib/arm64/libimsmedia_jni.so",
     symlink_target: "/system_ext/lib64/libimsmedia_jni.so",
 }
+
+install_symlink {
+    name: "vendor_etc_hal_uuid_map_23_xml",
+    soc_specific: true,
+    installed_location: "etc/hal_uuid_map_23.xml",
+    symlink_target: "/vendor/etc/hal_uuid_map_config.xml",
+}
+
+install_symlink {
+    name: "vendor_etc_hal_uuid_map_29_xml",
+    soc_specific: true,
+    installed_location: "etc/hal_uuid_map_29.xml",
+    symlink_target: "/vendor/etc/hal_uuid_map_config.xml",
+}
+
+install_symlink {
+    name: "vendor_etc_hal_uuid_map_31_xml",
+    soc_specific: true,
+    installed_location: "etc/hal_uuid_map_31.xml",
+    symlink_target: "/vendor/etc/hal_uuid_map_config.xml",
+}
