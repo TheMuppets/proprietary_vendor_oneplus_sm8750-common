@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/init.oppo.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oppo.reserve.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/init.touchDaemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.touchDaemon.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc \
-    vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V11-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V11-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
@@ -783,7 +782,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_charger_aidl.xml \
     manifest_oplus_displaypanelfeature_aidl.xml \
     manifest_oplus_face.xml \
-    manifest_touch_aidl.xml \
     KmInstallKeybox \
     adsprpcd \
     cdsprpcd \
@@ -854,7 +852,6 @@ PRODUCT_PACKAGES += \
     wfdservice64 \
     gauged \
     vendor-oplus-hardware-oplusSensor-V1-service \
-    vendor-oplus-hardware-touch-V2-service \
     vendor.oplus.hardware.biometrics.face@1.0-service_uff \
     vendor.oplus.hardware.charger-V11-service \
     vendor.oplus.hardware.displaypanelfeature-service \
