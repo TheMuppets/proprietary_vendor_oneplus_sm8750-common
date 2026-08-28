@@ -23096,24 +23096,6 @@ prebuilt_etc_xml {
     device_specific: true,
 }
 
-prebuilt_etc_xml {
-    name: "secure_element-service.xml",
-    owner: "oneplus",
-    src: "proprietary/odm/etc/vintf/manifest/secure_element-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "secure_element_omapi_service.xml",
-    owner: "oneplus",
-    src: "proprietary/odm/etc/vintf/manifest/secure_element_omapi_service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    device_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "adpl",
     owner: "oneplus",
@@ -24189,41 +24171,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.secure_element-service.qti",
-    owner: "oneplus",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/bin/hw/android.hardware.secure_element-service.qti",
-            ],
-            shared_libs: [
-                "libQSEEComAPI",
-                "libEseUtils",
-                "libGPQeSE",
-                "libbase",
-                "liblog",
-                "libutils",
-                "libbinder_ndk",
-                "android.hardware.secure_element-V1-ndk",
-                "android.hardware.nfc-V1-ndk",
-                "libsecurity_event_olc_vnd",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    device_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "mdm_feature",
     owner: "oneplus",
     target: {
@@ -24426,32 +24373,4 @@ install_symlink {
     system_ext_specific: true,
     installed_location: "priv-app/ims/lib/arm64/libimsmedia_jni.so",
     symlink_target: "/system_ext/lib64/libimsmedia_jni.so",
-}
-
-install_symlink {
-    name: "vendor_etc_hal_uuid_map_7_xml",
-    soc_specific: true,
-    installed_location: "etc/hal_uuid_map_7.xml",
-    symlink_target: "/vendor/etc/hal_uuid_map_config.xml",
-}
-
-install_symlink {
-    name: "vendor_etc_hal_uuid_map_23_xml",
-    soc_specific: true,
-    installed_location: "etc/hal_uuid_map_23.xml",
-    symlink_target: "/vendor/etc/hal_uuid_map_config.xml",
-}
-
-install_symlink {
-    name: "vendor_etc_hal_uuid_map_29_xml",
-    soc_specific: true,
-    installed_location: "etc/hal_uuid_map_29.xml",
-    symlink_target: "/vendor/etc/hal_uuid_map_config.xml",
-}
-
-install_symlink {
-    name: "vendor_etc_hal_uuid_map_31_xml",
-    soc_specific: true,
-    installed_location: "etc/hal_uuid_map_31.xml",
-    symlink_target: "/vendor/etc/hal_uuid_map_config.xml",
 }
