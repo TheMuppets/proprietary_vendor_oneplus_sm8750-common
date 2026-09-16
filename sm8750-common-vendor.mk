@@ -1433,6 +1433,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
+    vendor_etc_hal_uuid_map_7_xml \
     vendor_etc_hal_uuid_map_23_xml \
     vendor_etc_hal_uuid_map_29_xml \
     vendor_etc_hal_uuid_map_31_xml
