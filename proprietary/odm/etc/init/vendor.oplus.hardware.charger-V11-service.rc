@@ -87,6 +87,7 @@ on property:sys.boot_completed=1
     chown system system /sys/class/oplus_chg/common/battlog_push_config
     chown system system /sys/class/oplus_chg/common/deep_dischg_count_cali
     chown system system /sys/class/oplus_chg/common/deep_dischg_ratio_thr
+    chown system system /sys/class/oplus_chg/common/cc_tvs_damage
     chown system system /sys/class/oplus_chg/battery/gauge_info
     chown system system /sys/class/oplus_chg/common/sili_ic_alg_cfg
     chown system system /sys/class/oplus_chg/common/chg_up_limit
