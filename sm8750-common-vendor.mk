@@ -700,7 +700,6 @@ PRODUCT_PACKAGES += \
     libqcom_llm \
     libtransformer_lite \
     libGaiaClient_vnd \
-    libPanelChaplin \
     libQnnCpu \
     libQnnGpu \
     libQnnHtp \
@@ -787,7 +786,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_displaypanelfeature_aidl.xml \
     manifest_oplus_face.xml \
     manifest_touch_aidl.xml \
-    vintf_manifext_aidl_panelchaplin.xml \
     KmInstallKeybox \
     adsprpcd \
     cdsprpcd \
